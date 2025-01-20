@@ -1,0 +1,181 @@
+[0.045s] Invoking command in '/home/catscanners/Documents/find-my-kitten/ros2_ws/build/px4_ros_com': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/catscanners/Documents/find-my-kitten/ros2_ws/install/py_pubsub:/opt/ros/humble /usr/bin/cmake /home/catscanners/Documents/find-my-kitten/ros2_ws/src/px4_ros_com -DCMAKE_INSTALL_PREFIX=/home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_ros_com
+[0.578s] -- The C compiler identification is GNU 11.4.0
+[0.606s] -- The CXX compiler identification is GNU 11.4.0
+[0.634s] -- Detecting C compiler ABI info
+[0.800s] -- Detecting C compiler ABI info - done
+[0.817s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.821s] -- Detecting C compile features
+[0.823s] -- Detecting C compile features - done
+[0.836s] -- Detecting CXX compiler ABI info
+[1.003s] -- Detecting CXX compiler ABI info - done
+[1.017s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.017s] -- Detecting CXX compile features
+[1.018s] -- Detecting CXX compile features - done
+[1.023s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.917s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.119s] -- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[2.185s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.195s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.212s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.237s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.271s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.301s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[2.315s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[2.318s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[2.371s] -- Found px4_msgs: 2.0.1 (/home/catscanners/Documents/ws_sensor_combined/install/px4_msgs/share/px4_msgs/cmake)
+[2.396s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[2.477s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.483s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.675s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.751s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.839s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.865s] -- Looking for pthread.h
+[3.030s] -- Looking for pthread.h - found
+[3.030s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.172s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[3.173s] -- Found Threads: TRUE  
+[3.246s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[3.283s] -- Found rclpy: 3.3.15 (/opt/ros/humble/share/rclpy/cmake)
+[3.297s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.540s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.551s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.552s] -- Configured cppcheck include dirs: /home/catscanners/Documents/find-my-kitten/ros2_ws/src/px4_ros_com/include;$<BUILD_INTERFACE:/home/catscanners/Documents/find-my-kitten/ros2_ws/src/px4_ros_com/include/px4_ros_com>
+[3.553s] -- Configured cppcheck exclude dirs and/or files: 
+[3.563s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[3.563s] -- Configured cpplint exclude dirs and/or files: 
+[3.565s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.569s] -- Added test 'lint_cmake' to check CMake code style
+[3.571s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[3.581s] -- Added test 'uncrustify' to check C / C++ code style
+[3.581s] -- Configured uncrustify additional arguments: 
+[3.583s] -- Added test 'xmllint' to check XML markup files
+[3.588s] -- Configuring done
+[3.641s] -- Generating done
+[3.661s] -- Build files have been written to: /home/catscanners/Documents/find-my-kitten/ros2_ws/build/px4_ros_com
+[3.690s] Invoked command in '/home/catscanners/Documents/find-my-kitten/ros2_ws/build/px4_ros_com' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/catscanners/Documents/find-my-kitten/ros2_ws/install/py_pubsub:/opt/ros/humble /usr/bin/cmake /home/catscanners/Documents/find-my-kitten/ros2_ws/src/px4_ros_com -DCMAKE_INSTALL_PREFIX=/home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_ros_com
+[3.700s] Invoking command in '/home/catscanners/Documents/find-my-kitten/ros2_ws/build/px4_ros_com': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/catscanners/Documents/find-my-kitten/ros2_ws/install/py_pubsub:/opt/ros/humble /usr/bin/cmake --build /home/catscanners/Documents/find-my-kitten/ros2_ws/build/px4_ros_com -- -j6 -l6
+[3.802s] [  8%] [32mBuilding CXX object CMakeFiles/vehicle_gps_position_listener.dir/src/examples/listeners/vehicle_gps_position_listener.cpp.o[0m
+[3.803s] [ 16%] [32mBuilding CXX object CMakeFiles/sensor_combined_listener.dir/src/examples/listeners/sensor_combined_listener.cpp.o[0m
+[3.803s] [ 25%] [32mBuilding CXX object CMakeFiles/offboard_control.dir/src/examples/offboard/offboard_control.cpp.o[0m
+[3.810s] [ 33%] [32mBuilding CXX object CMakeFiles/frame_transforms.dir/src/lib/frame_transforms.cpp.o[0m
+[3.825s] [ 50%] [32mBuilding CXX object CMakeFiles/offboard_control_srv.dir/src/examples/offboard/offboard_control_srv.cpp.o[0m
+[3.825s] [ 50%] [32mBuilding CXX object CMakeFiles/debug_vect_advertiser.dir/src/examples/advertisers/debug_vect_advertiser.cpp.o[0m
+[5.790s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:214[m[K,
+[5.790s]                  from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+[5.790s]                  from [01m[K/usr/include/eigen3/Eigen/Eigen:1[m[K,
+[5.791s]                  from [01m[K/home/catscanners/Documents/find-my-kitten/ros2_ws/src/px4_ros_com/include/px4_ros_com/frame_transforms.h:45[m[K,
+[5.791s]                  from [01m[K/home/catscanners/Documents/find-my-kitten/ros2_ws/src/px4_ros_com/src/lib/frame_transforms.cpp:41[m[K:
+[5.791s] [01m[K/usr/include/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:[m[K In function ‘[01m[KPacket Eigen::internal::pload(const typename Eigen::internal::unpacket_traits<T>::type*) [with Packet = Eigen::internal::eigen_packet_wrapper<int, 2>; typename Eigen::internal::unpacket_traits<T>::type = signed char][m[K’:
+[5.791s] [01m[K/usr/include/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:1671:9:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid* memcpy(void*, const void*, size_t)[m[K’ copying an object of non-trivial type ‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} from an array of ‘[01m[Kconst int8_t[m[K’ {aka ‘[01m[Kconst signed char[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wclass-memaccess-Wclass-memaccess]8;;[m[K]
+[5.791s]  1671 |   [01;35m[Kmemcpy(&res, from, sizeof(Packet4c))[m[K;
+[5.791s]       |   [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.792s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:172[m[K,
+[5.792s]                  from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+[5.792s]                  from [01m[K/usr/include/eigen3/Eigen/Eigen:1[m[K,
+[5.792s]                  from [01m[K/home/catscanners/Documents/find-my-kitten/ros2_ws/src/px4_ros_com/include/px4_ros_com/frame_transforms.h:45[m[K,
+[5.792s]                  from [01m[K/home/catscanners/Documents/find-my-kitten/ros2_ws/src/px4_ros_com/src/lib/frame_transforms.cpp:41[m[K:
+[5.792s] [01m[K/usr/include/eigen3/Eigen/src/Core/GenericPacketMath.h:159:8:[m[K [01;36m[Knote: [m[K‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} declared here
+[5.792s]   159 | struct [01;36m[Keigen_packet_wrapper[m[K
+[5.793s]       |        [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[5.798s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:214[m[K,
+[5.798s]                  from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+[5.798s]                  from [01m[K/usr/include/eigen3/Eigen/Eigen:1[m[K,
+[5.798s]                  from [01m[K/home/catscanners/Documents/find-my-kitten/ros2_ws/src/px4_ros_com/include/px4_ros_com/frame_transforms.h:45[m[K,
+[5.798s]                  from [01m[K/home/catscanners/Documents/find-my-kitten/ros2_ws/src/px4_ros_com/src/lib/frame_transforms.cpp:41[m[K:
+[5.799s] [01m[K/usr/include/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:[m[K In function ‘[01m[KPacket Eigen::internal::ploadu(const typename Eigen::internal::unpacket_traits<T>::type*) [with Packet = Eigen::internal::eigen_packet_wrapper<int, 2>; typename Eigen::internal::unpacket_traits<T>::type = signed char][m[K’:
+[5.799s] [01m[K/usr/include/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:1716:9:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid* memcpy(void*, const void*, size_t)[m[K’ copying an object of non-trivial type ‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} from an array of ‘[01m[Kconst int8_t[m[K’ {aka ‘[01m[Kconst signed char[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wclass-memaccess-Wclass-memaccess]8;;[m[K]
+[5.799s]  1716 |   [01;35m[Kmemcpy(&res, from, sizeof(Packet4c))[m[K;
+[5.799s]       |   [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.799s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:172[m[K,
+[5.799s]                  from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+[5.799s]                  from [01m[K/usr/include/eigen3/Eigen/Eigen:1[m[K,
+[5.799s]                  from [01m[K/home/catscanners/Documents/find-my-kitten/ros2_ws/src/px4_ros_com/include/px4_ros_com/frame_transforms.h:45[m[K,
+[5.799s]                  from [01m[K/home/catscanners/Documents/find-my-kitten/ros2_ws/src/px4_ros_com/src/lib/frame_transforms.cpp:41[m[K:
+[5.800s] [01m[K/usr/include/eigen3/Eigen/src/Core/GenericPacketMath.h:159:8:[m[K [01;36m[Knote: [m[K‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} declared here
+[5.800s]   159 | struct [01;36m[Keigen_packet_wrapper[m[K
+[5.800s]       |        [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[17.850s] [ 58%] [32m[1mLinking CXX executable debug_vect_advertiser[0m
+[18.507s] [ 58%] Built target debug_vect_advertiser
+[18.600s] [ 58%] Built target ament_cmake_python_copy_px4_ros_com
+[19.297s] running egg_info
+[19.300s] creating px4_ros_com.egg-info
+[19.351s] writing px4_ros_com.egg-info/PKG-INFO
+[19.353s] writing dependency_links to px4_ros_com.egg-info/dependency_links.txt
+[19.353s] writing top-level names to px4_ros_com.egg-info/top_level.txt
+[19.354s] writing manifest file 'px4_ros_com.egg-info/SOURCES.txt'
+[20.072s] reading manifest file 'px4_ros_com.egg-info/SOURCES.txt'
+[20.073s] writing manifest file 'px4_ros_com.egg-info/SOURCES.txt'
+[20.194s] [ 58%] Built target ament_cmake_python_build_px4_ros_com_egg
+[21.193s] [ 66%] [32m[1mLinking CXX executable offboard_control[0m
+[21.812s] [ 66%] Built target offboard_control
+[22.947s] [ 75%] [32m[1mLinking CXX executable offboard_control_srv[0m
+[23.691s] [ 75%] Built target offboard_control_srv
+[24.036s] [ 83%] [32m[1mLinking CXX shared library libframe_transforms.so[0m
+[24.672s] [ 83%] Built target frame_transforms
+[26.876s] [ 91%] [32m[1mLinking CXX executable vehicle_gps_position_listener[0m
+[27.024s] [100%] [32m[1mLinking CXX executable sensor_combined_listener[0m
+[27.996s] [100%] Built target sensor_combined_listener
+[27.996s] [100%] Built target vehicle_gps_position_listener
+[28.023s] Invoked command in '/home/catscanners/Documents/find-my-kitten/ros2_ws/build/px4_ros_com' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/catscanners/Documents/find-my-kitten/ros2_ws/install/py_pubsub:/opt/ros/humble /usr/bin/cmake --build /home/catscanners/Documents/find-my-kitten/ros2_ws/build/px4_ros_com -- -j6 -l6
+[28.028s] Invoking command in '/home/catscanners/Documents/find-my-kitten/ros2_ws/build/px4_ros_com': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/catscanners/Documents/find-my-kitten/ros2_ws/install/py_pubsub:/opt/ros/humble /usr/bin/cmake --install /home/catscanners/Documents/find-my-kitten/ros2_ws/build/px4_ros_com
+[28.046s] -- Install configuration: ""
+[28.047s] -- Installing: /home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_ros_com/lib/px4_ros_com/sensor_combined_listener
+[28.055s] -- Set runtime path of "/home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_ros_com/lib/px4_ros_com/sensor_combined_listener" to ""
+[28.055s] -- Installing: /home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_ros_com/lib/px4_ros_com/vehicle_gps_position_listener
+[28.064s] -- Set runtime path of "/home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_ros_com/lib/px4_ros_com/vehicle_gps_position_listener" to ""
+[28.064s] -- Installing: /home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_ros_com/lib/px4_ros_com/debug_vect_advertiser
+[28.067s] -- Set runtime path of "/home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_ros_com/lib/px4_ros_com/debug_vect_advertiser" to ""
+[28.067s] -- Installing: /home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_ros_com/lib/px4_ros_com/offboard_control
+[28.070s] -- Set runtime path of "/home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_ros_com/lib/px4_ros_com/offboard_control" to ""
+[28.071s] -- Installing: /home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_ros_com/lib/px4_ros_com/offboard_control_srv
+[28.075s] -- Set runtime path of "/home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_ros_com/lib/px4_ros_com/offboard_control_srv" to ""
+[28.076s] -- Installing: /home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_ros_com/share/px4_ros_com/environment/library_path.sh
+[28.076s] -- Installing: /home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_ros_com/share/px4_ros_com/environment/library_path.dsv
+[28.076s] -- Installing: /home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_ros_com/include/px4_ros_com
+[28.076s] -- Installing: /home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_ros_com/include/px4_ros_com/frame_transforms.h
+[28.076s] -- Installing: /home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_ros_com/lib/libframe_transforms.so
+[28.085s] -- Set runtime path of "/home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_ros_com/lib/libframe_transforms.so" to ""
+[28.085s] -- Installing: /home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_ros_com/share/px4_ros_com//launch
+[28.086s] -- Installing: /home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_ros_com/share/px4_ros_com//launch/sensor_combined_listener.launch.py
+[28.086s] -- Installing: /home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_ros_com/share/px4_ros_com//launch/offboard_control_launch.yaml
+[28.086s] -- Installing: /home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_ros_com/share/px4_ros_com//test
+[28.086s] -- Installing: /home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_ros_com/share/px4_ros_com//test/test_input.py
+[28.087s] -- Installing: /home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_ros_com/share/px4_ros_com//test/pipeline_io_test.py
+[28.087s] -- Installing: /home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_ros_com/share/px4_ros_com//test/test_output.py
+[28.087s] -- Installing: /home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_ros_com/share/px4_ros_com//test/__init__.py
+[28.087s] -- Installing: /home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_ros_com/share/px4_ros_com/environment/pythonpath.sh
+[28.087s] -- Installing: /home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_ros_com/share/px4_ros_com/environment/pythonpath.dsv
+[28.087s] -- Installing: /home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com-0.1.0-py3.10.egg-info
+[28.088s] -- Installing: /home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com-0.1.0-py3.10.egg-info/dependency_links.txt
+[28.088s] -- Installing: /home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com-0.1.0-py3.10.egg-info/PKG-INFO
+[28.088s] -- Installing: /home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com-0.1.0-py3.10.egg-info/SOURCES.txt
+[28.088s] -- Installing: /home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com-0.1.0-py3.10.egg-info/top_level.txt
+[28.088s] -- Installing: /home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com
+[28.089s] -- Installing: /home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com/__init__.py
+[28.089s] -- Installing: /home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com/module_to_import.py
+[28.167s] Listing '/home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com'...
+[28.167s] Compiling '/home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com/__init__.py'...
+[28.167s] Compiling '/home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com/module_to_import.py'...
+[28.179s] -- Installing: /home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_ros_com/lib/px4_ros_com/offboard_control.py
+[28.179s] -- Installing: /home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_ros_com/share/ament_index/resource_index/package_run_dependencies/px4_ros_com
+[28.180s] -- Installing: /home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_ros_com/share/ament_index/resource_index/parent_prefix_path/px4_ros_com
+[28.180s] -- Installing: /home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_ros_com/share/px4_ros_com/environment/ament_prefix_path.sh
+[28.181s] -- Installing: /home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_ros_com/share/px4_ros_com/environment/ament_prefix_path.dsv
+[28.181s] -- Installing: /home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_ros_com/share/px4_ros_com/environment/path.sh
+[28.181s] -- Installing: /home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_ros_com/share/px4_ros_com/environment/path.dsv
+[28.181s] -- Installing: /home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_ros_com/share/px4_ros_com/local_setup.bash
+[28.182s] -- Installing: /home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_ros_com/share/px4_ros_com/local_setup.sh
+[28.182s] -- Installing: /home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_ros_com/share/px4_ros_com/local_setup.zsh
+[28.182s] -- Installing: /home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_ros_com/share/px4_ros_com/local_setup.dsv
+[28.183s] -- Installing: /home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_ros_com/share/px4_ros_com/package.dsv
+[28.183s] -- Installing: /home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_ros_com/share/ament_index/resource_index/packages/px4_ros_com
+[28.184s] -- Installing: /home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_ros_com/share/px4_ros_com/cmake/export_frame_transformsExport.cmake
+[28.184s] -- Installing: /home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_ros_com/share/px4_ros_com/cmake/export_frame_transformsExport-noconfig.cmake
+[28.185s] -- Installing: /home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_ros_com/share/px4_ros_com/cmake/ament_cmake_export_dependencies-extras.cmake
+[28.185s] -- Installing: /home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_ros_com/share/px4_ros_com/cmake/ament_cmake_export_targets-extras.cmake
+[28.186s] -- Installing: /home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_ros_com/share/px4_ros_com/cmake/ament_cmake_export_include_directories-extras.cmake
+[28.186s] -- Installing: /home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_ros_com/share/px4_ros_com/cmake/ament_cmake_export_libraries-extras.cmake
+[28.186s] -- Installing: /home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_ros_com/share/px4_ros_com/cmake/px4_ros_comConfig.cmake
+[28.186s] -- Installing: /home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_ros_com/share/px4_ros_com/cmake/px4_ros_comConfig-version.cmake
+[28.187s] -- Installing: /home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_ros_com/share/px4_ros_com/package.xml
+[28.195s] Invoked command in '/home/catscanners/Documents/find-my-kitten/ros2_ws/build/px4_ros_com' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/catscanners/Documents/find-my-kitten/ros2_ws/install/py_pubsub:/opt/ros/humble /usr/bin/cmake --install /home/catscanners/Documents/find-my-kitten/ros2_ws/build/px4_ros_com

@@ -1,0 +1,15 @@
+/home/catscanners/Documents/find-my-kitten/ros2_ws/install/ros2_nodes/share/ament_index/resource_index/package_run_dependencies/ros2_nodes
+/home/catscanners/Documents/find-my-kitten/ros2_ws/install/ros2_nodes/share/ament_index/resource_index/parent_prefix_path/ros2_nodes
+/home/catscanners/Documents/find-my-kitten/ros2_ws/install/ros2_nodes/share/ros2_nodes/environment/ament_prefix_path.sh
+/home/catscanners/Documents/find-my-kitten/ros2_ws/install/ros2_nodes/share/ros2_nodes/environment/ament_prefix_path.dsv
+/home/catscanners/Documents/find-my-kitten/ros2_ws/install/ros2_nodes/share/ros2_nodes/environment/path.sh
+/home/catscanners/Documents/find-my-kitten/ros2_ws/install/ros2_nodes/share/ros2_nodes/environment/path.dsv
+/home/catscanners/Documents/find-my-kitten/ros2_ws/install/ros2_nodes/share/ros2_nodes/local_setup.bash
+/home/catscanners/Documents/find-my-kitten/ros2_ws/install/ros2_nodes/share/ros2_nodes/local_setup.sh
+/home/catscanners/Documents/find-my-kitten/ros2_ws/install/ros2_nodes/share/ros2_nodes/local_setup.zsh
+/home/catscanners/Documents/find-my-kitten/ros2_ws/install/ros2_nodes/share/ros2_nodes/local_setup.dsv
+/home/catscanners/Documents/find-my-kitten/ros2_ws/install/ros2_nodes/share/ros2_nodes/package.dsv
+/home/catscanners/Documents/find-my-kitten/ros2_ws/install/ros2_nodes/share/ament_index/resource_index/packages/ros2_nodes
+/home/catscanners/Documents/find-my-kitten/ros2_ws/install/ros2_nodes/share/ros2_nodes/cmake/ros2_nodesConfig.cmake
+/home/catscanners/Documents/find-my-kitten/ros2_ws/install/ros2_nodes/share/ros2_nodes/cmake/ros2_nodesConfig-version.cmake
+/home/catscanners/Documents/find-my-kitten/ros2_ws/install/ros2_nodes/share/ros2_nodes/package.xml

@@ -1,0 +1,42 @@
+[0.555s] Invoking command in '/home/catscanners/Documents/find-my-kitten/ros2_ws/build/ros2_nodes': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/catscanners/Documents/find-my-kitten/ros2_ws/install/py_pubsub:/opt/ros/humble /usr/bin/cmake /home/catscanners/Documents/find-my-kitten/ros2_ws/src/ros2_nodes -DCMAKE_INSTALL_PREFIX=/home/catscanners/Documents/find-my-kitten/ros2_ws/install/ros2_nodes
+[0.670s] -- The C compiler identification is GNU 11.4.0
+[0.786s] -- The CXX compiler identification is GNU 11.4.0
+[0.800s] -- Detecting C compiler ABI info
+[0.953s] -- Detecting C compiler ABI info - done
+[0.976s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.977s] -- Detecting C compile features
+[0.979s] -- Detecting C compile features - done
+[0.990s] -- Detecting CXX compiler ABI info
+[1.182s] -- Detecting CXX compiler ABI info - done
+[1.203s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.204s] -- Detecting CXX compile features
+[1.206s] -- Detecting CXX compile features - done
+[1.213s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.096s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.316s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.517s] -- Added test 'lint_cmake' to check CMake code style
+[2.519s] -- Added test 'xmllint' to check XML markup files
+[2.523s] -- Configuring done
+[2.531s] -- Generating done
+[2.536s] -- Build files have been written to: /home/catscanners/Documents/find-my-kitten/ros2_ws/build/ros2_nodes
+[2.552s] Invoked command in '/home/catscanners/Documents/find-my-kitten/ros2_ws/build/ros2_nodes' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/catscanners/Documents/find-my-kitten/ros2_ws/install/py_pubsub:/opt/ros/humble /usr/bin/cmake /home/catscanners/Documents/find-my-kitten/ros2_ws/src/ros2_nodes -DCMAKE_INSTALL_PREFIX=/home/catscanners/Documents/find-my-kitten/ros2_ws/install/ros2_nodes
+[2.553s] Invoking command in '/home/catscanners/Documents/find-my-kitten/ros2_ws/build/ros2_nodes': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/catscanners/Documents/find-my-kitten/ros2_ws/install/py_pubsub:/opt/ros/humble /usr/bin/cmake --build /home/catscanners/Documents/find-my-kitten/ros2_ws/build/ros2_nodes -- -j6 -l6
+[2.651s] Invoked command in '/home/catscanners/Documents/find-my-kitten/ros2_ws/build/ros2_nodes' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/catscanners/Documents/find-my-kitten/ros2_ws/install/py_pubsub:/opt/ros/humble /usr/bin/cmake --build /home/catscanners/Documents/find-my-kitten/ros2_ws/build/ros2_nodes -- -j6 -l6
+[2.675s] Invoking command in '/home/catscanners/Documents/find-my-kitten/ros2_ws/build/ros2_nodes': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/catscanners/Documents/find-my-kitten/ros2_ws/install/py_pubsub:/opt/ros/humble /usr/bin/cmake --install /home/catscanners/Documents/find-my-kitten/ros2_ws/build/ros2_nodes
+[2.690s] -- Install configuration: ""
+[2.690s] -- Installing: /home/catscanners/Documents/find-my-kitten/ros2_ws/install/ros2_nodes/share/ament_index/resource_index/package_run_dependencies/ros2_nodes
+[2.690s] -- Installing: /home/catscanners/Documents/find-my-kitten/ros2_ws/install/ros2_nodes/share/ament_index/resource_index/parent_prefix_path/ros2_nodes
+[2.691s] -- Installing: /home/catscanners/Documents/find-my-kitten/ros2_ws/install/ros2_nodes/share/ros2_nodes/environment/ament_prefix_path.sh
+[2.692s] -- Installing: /home/catscanners/Documents/find-my-kitten/ros2_ws/install/ros2_nodes/share/ros2_nodes/environment/ament_prefix_path.dsv
+[2.692s] -- Installing: /home/catscanners/Documents/find-my-kitten/ros2_ws/install/ros2_nodes/share/ros2_nodes/environment/path.sh
+[2.692s] -- Installing: /home/catscanners/Documents/find-my-kitten/ros2_ws/install/ros2_nodes/share/ros2_nodes/environment/path.dsv
+[2.693s] -- Installing: /home/catscanners/Documents/find-my-kitten/ros2_ws/install/ros2_nodes/share/ros2_nodes/local_setup.bash
+[2.693s] -- Installing: /home/catscanners/Documents/find-my-kitten/ros2_ws/install/ros2_nodes/share/ros2_nodes/local_setup.sh
+[2.693s] -- Installing: /home/catscanners/Documents/find-my-kitten/ros2_ws/install/ros2_nodes/share/ros2_nodes/local_setup.zsh
+[2.693s] -- Installing: /home/catscanners/Documents/find-my-kitten/ros2_ws/install/ros2_nodes/share/ros2_nodes/local_setup.dsv
+[2.694s] -- Installing: /home/catscanners/Documents/find-my-kitten/ros2_ws/install/ros2_nodes/share/ros2_nodes/package.dsv
+[2.694s] -- Installing: /home/catscanners/Documents/find-my-kitten/ros2_ws/install/ros2_nodes/share/ament_index/resource_index/packages/ros2_nodes
+[2.694s] -- Installing: /home/catscanners/Documents/find-my-kitten/ros2_ws/install/ros2_nodes/share/ros2_nodes/cmake/ros2_nodesConfig.cmake
+[2.694s] -- Installing: /home/catscanners/Documents/find-my-kitten/ros2_ws/install/ros2_nodes/share/ros2_nodes/cmake/ros2_nodesConfig-version.cmake
+[2.694s] -- Installing: /home/catscanners/Documents/find-my-kitten/ros2_ws/install/ros2_nodes/share/ros2_nodes/package.xml
+[2.700s] Invoked command in '/home/catscanners/Documents/find-my-kitten/ros2_ws/build/ros2_nodes' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/catscanners/Documents/find-my-kitten/ros2_ws/install/py_pubsub:/opt/ros/humble /usr/bin/cmake --install /home/catscanners/Documents/find-my-kitten/ros2_ws/build/ros2_nodes

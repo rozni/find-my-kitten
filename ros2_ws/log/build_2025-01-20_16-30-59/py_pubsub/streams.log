@@ -1,0 +1,27 @@
+[2.046s] Invoking command in '/home/catscanners/Documents/find-my-kitten/ros2_ws/src/py_pubsub': PYTHONPATH=/home/catscanners/Documents/find-my-kitten/ros2_ws/build/py_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/catscanners/Documents/find-my-kitten/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/catscanners/Documents/find-my-kitten/ros2_ws/build/py_pubsub/build install --record /home/catscanners/Documents/find-my-kitten/ros2_ws/build/py_pubsub/install.log --single-version-externally-managed install_data
+[2.688s] running egg_info
+[2.725s] writing ../../build/py_pubsub/py_pubsub.egg-info/PKG-INFO
+[2.727s] writing dependency_links to ../../build/py_pubsub/py_pubsub.egg-info/dependency_links.txt
+[2.727s] writing entry points to ../../build/py_pubsub/py_pubsub.egg-info/entry_points.txt
+[2.728s] writing requirements to ../../build/py_pubsub/py_pubsub.egg-info/requires.txt
+[2.731s] writing top-level names to ../../build/py_pubsub/py_pubsub.egg-info/top_level.txt
+[2.921s] adding license file 'LICENSE'
+[2.922s] writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[2.923s] running build
+[2.923s] running build_py
+[2.923s] copying py_pubsub/publisher_member_function.py -> /home/catscanners/Documents/find-my-kitten/ros2_ws/build/py_pubsub/build/lib/py_pubsub
+[2.924s] copying py_pubsub/__init__.py -> /home/catscanners/Documents/find-my-kitten/ros2_ws/build/py_pubsub/build/lib/py_pubsub
+[2.924s] copying py_pubsub/subscriber_member_function.py -> /home/catscanners/Documents/find-my-kitten/ros2_ws/build/py_pubsub/build/lib/py_pubsub
+[2.925s] running install
+[2.936s] running install_lib
+[2.977s] running install_data
+[2.977s] copying resource/py_pubsub -> /home/catscanners/Documents/find-my-kitten/ros2_ws/install/py_pubsub/share/ament_index/resource_index/packages
+[2.977s] copying package.xml -> /home/catscanners/Documents/find-my-kitten/ros2_ws/install/py_pubsub/share/py_pubsub
+[2.977s] running install_egg_info
+[3.017s] removing '/home/catscanners/Documents/find-my-kitten/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub-0.0.0-py3.10.egg-info' (and everything under it)
+[3.018s] Copying ../../build/py_pubsub/py_pubsub.egg-info to /home/catscanners/Documents/find-my-kitten/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub-0.0.0-py3.10.egg-info
+[3.020s] running install_scripts
+[3.344s] Installing listener script to /home/catscanners/Documents/find-my-kitten/ros2_ws/install/py_pubsub/lib/py_pubsub
+[3.345s] Installing talker script to /home/catscanners/Documents/find-my-kitten/ros2_ws/install/py_pubsub/lib/py_pubsub
+[3.346s] writing list of installed files to '/home/catscanners/Documents/find-my-kitten/ros2_ws/build/py_pubsub/install.log'
+[3.443s] Invoked command in '/home/catscanners/Documents/find-my-kitten/ros2_ws/src/py_pubsub' returned '0': PYTHONPATH=/home/catscanners/Documents/find-my-kitten/ros2_ws/build/py_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/catscanners/Documents/find-my-kitten/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/catscanners/Documents/find-my-kitten/ros2_ws/build/py_pubsub/build install --record /home/catscanners/Documents/find-my-kitten/ros2_ws/build/py_pubsub/install.log --single-version-externally-managed install_data

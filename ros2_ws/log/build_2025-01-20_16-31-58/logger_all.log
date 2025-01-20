@@ -1,0 +1,337 @@
+[0.266s] [34mcolcon[0m [1;30mDEBUG[0m [32mCommand line arguments: ['/usr/bin/colcon', 'build'][0m
+[0.267s] [34mcolcon[0m [1;30mDEBUG[0m [32mParsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=6, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0xffffaab194e0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffaab19030>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffaab19030>>, mixin_verb=('build',))[0m
+[0.352s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) check parameters
+[0.352s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) check parameters
+[0.352s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) check parameters
+[0.352s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) check parameters
+[0.352s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) discover
+[0.354s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) discover
+[0.354s] [34mcolcon.colcon_core.package_discovery[0m [1;30mINFO[0m Crawling recursively for packages in '/home/catscanners/Documents/find-my-kitten/ros2_ws'
+[0.355s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.355s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore'
+[0.355s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore_ament_install'
+[0.355s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_pkg']
+[0.355s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_pkg'
+[0.356s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_meta']
+[0.356s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_meta'
+[0.356s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ros']
+[0.356s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ros'
+[0.398s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['cmake', 'python']
+[0.398s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'cmake'
+[0.398s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python'
+[0.398s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['python_setup_py']
+[0.398s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python_setup_py'
+[0.399s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.399s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extension 'ignore'
+[0.399s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) ignored
+[0.399s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.399s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extension 'ignore'
+[0.399s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) ignored
+[0.400s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.400s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extension 'ignore'
+[0.400s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) ignored
+[0.400s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.400s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ignore'
+[0.400s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ignore_ament_install'
+[0.401s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['colcon_pkg']
+[0.401s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'colcon_pkg'
+[0.401s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['colcon_meta']
+[0.401s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'colcon_meta'
+[0.401s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['ros']
+[0.401s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ros'
+[0.401s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['cmake', 'python']
+[0.401s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'cmake'
+[0.401s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'python'
+[0.401s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['python_setup_py']
+[0.401s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'python_setup_py'
+[0.402s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/px4_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.402s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/px4_msgs) by extension 'ignore'
+[0.402s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/px4_msgs) by extension 'ignore_ament_install'
+[0.402s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/px4_msgs) by extensions ['colcon_pkg']
+[0.402s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/px4_msgs) by extension 'colcon_pkg'
+[0.402s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/px4_msgs) by extensions ['colcon_meta']
+[0.402s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/px4_msgs) by extension 'colcon_meta'
+[0.402s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/px4_msgs) by extensions ['ros']
+[0.403s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/px4_msgs) by extension 'ros'
+[0.408s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/px4_msgs' with type 'ros.ament_cmake' and name 'px4_msgs'[0m
+[0.408s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/px4_ros_com) by extensions ['ignore', 'ignore_ament_install']
+[0.408s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/px4_ros_com) by extension 'ignore'
+[0.409s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/px4_ros_com) by extension 'ignore_ament_install'
+[0.409s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/px4_ros_com) by extensions ['colcon_pkg']
+[0.409s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/px4_ros_com) by extension 'colcon_pkg'
+[0.409s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/px4_ros_com) by extensions ['colcon_meta']
+[0.409s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/px4_ros_com) by extension 'colcon_meta'
+[0.409s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/px4_ros_com) by extensions ['ros']
+[0.409s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/px4_ros_com) by extension 'ros'
+[0.412s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/px4_ros_com' with type 'ros.ament_cmake' and name 'px4_ros_com'[0m
+[0.412s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/py_pubsub) by extensions ['ignore', 'ignore_ament_install']
+[0.412s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/py_pubsub) by extension 'ignore'
+[0.413s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/py_pubsub) by extension 'ignore_ament_install'
+[0.413s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/py_pubsub) by extensions ['colcon_pkg']
+[0.413s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/py_pubsub) by extension 'colcon_pkg'
+[0.413s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/py_pubsub) by extensions ['colcon_meta']
+[0.413s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/py_pubsub) by extension 'colcon_meta'
+[0.413s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/py_pubsub) by extensions ['ros']
+[0.413s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/py_pubsub) by extension 'ros'
+[0.414s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/py_pubsub' with type 'ros.ament_python' and name 'py_pubsub'[0m
+[0.414s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ros2_nodes) by extensions ['ignore', 'ignore_ament_install']
+[0.415s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ros2_nodes) by extension 'ignore'
+[0.415s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ros2_nodes) by extension 'ignore_ament_install'
+[0.415s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ros2_nodes) by extensions ['colcon_pkg']
+[0.415s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ros2_nodes) by extension 'colcon_pkg'
+[0.415s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ros2_nodes) by extensions ['colcon_meta']
+[0.415s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ros2_nodes) by extension 'colcon_meta'
+[0.415s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ros2_nodes) by extensions ['ros']
+[0.415s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ros2_nodes) by extension 'ros'
+[0.416s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/ros2_nodes' with type 'ros.ament_cmake' and name 'ros2_nodes'[0m
+[0.416s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) using defaults
+[0.417s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) discover
+[0.417s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) using defaults
+[0.417s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) discover
+[0.417s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) using defaults
+[0.453s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) check parameters
+[0.453s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) discover
+[0.457s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 3 installed packages in /home/catscanners/Documents/find-my-kitten/ros2_ws/install[0m
+[0.460s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 2 installed packages in /home/catscanners/Documents/ws_sensor_combined/install[0m
+[0.462s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 270 installed packages in /opt/ros/humble[0m
+[0.465s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) using defaults
+[0.543s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'px4_msgs' build argument 'cmake_args' from command line to 'None'
+[0.543s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'px4_msgs' build argument 'cmake_target' from command line to 'None'
+[0.543s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'px4_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.543s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'px4_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.543s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'px4_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.543s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'px4_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.543s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'px4_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.543s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'px4_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.543s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'px4_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.543s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'px4_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/catscanners/Documents/find-my-kitten/ros2_ws/build/px4_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_msgs', 'merge_install': False, 'path': '/home/catscanners/Documents/find-my-kitten/ros2_ws/src/px4_msgs', 'symlink_install': False, 'test_result_base': None}[0m
+[0.544s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'py_pubsub' build argument 'cmake_args' from command line to 'None'
+[0.544s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'py_pubsub' build argument 'cmake_target' from command line to 'None'
+[0.544s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'py_pubsub' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.544s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'py_pubsub' build argument 'cmake_clean_cache' from command line to 'False'
+[0.544s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'py_pubsub' build argument 'cmake_clean_first' from command line to 'False'
+[0.544s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'py_pubsub' build argument 'cmake_force_configure' from command line to 'False'
+[0.544s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'py_pubsub' build argument 'ament_cmake_args' from command line to 'None'
+[0.545s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'py_pubsub' build argument 'catkin_cmake_args' from command line to 'None'
+[0.545s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'py_pubsub' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.545s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'py_pubsub' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/catscanners/Documents/find-my-kitten/ros2_ws/build/py_pubsub', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/catscanners/Documents/find-my-kitten/ros2_ws/install/py_pubsub', 'merge_install': False, 'path': '/home/catscanners/Documents/find-my-kitten/ros2_ws/src/py_pubsub', 'symlink_install': False, 'test_result_base': None}[0m
+[0.545s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ros2_nodes' build argument 'cmake_args' from command line to 'None'
+[0.545s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ros2_nodes' build argument 'cmake_target' from command line to 'None'
+[0.545s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ros2_nodes' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.545s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ros2_nodes' build argument 'cmake_clean_cache' from command line to 'False'
+[0.546s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ros2_nodes' build argument 'cmake_clean_first' from command line to 'False'
+[0.546s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ros2_nodes' build argument 'cmake_force_configure' from command line to 'False'
+[0.546s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ros2_nodes' build argument 'ament_cmake_args' from command line to 'None'
+[0.546s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ros2_nodes' build argument 'catkin_cmake_args' from command line to 'None'
+[0.546s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ros2_nodes' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.546s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'ros2_nodes' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/catscanners/Documents/find-my-kitten/ros2_ws/build/ros2_nodes', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/catscanners/Documents/find-my-kitten/ros2_ws/install/ros2_nodes', 'merge_install': False, 'path': '/home/catscanners/Documents/find-my-kitten/ros2_ws/src/ros2_nodes', 'symlink_install': False, 'test_result_base': None}[0m
+[0.546s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'px4_ros_com' build argument 'cmake_args' from command line to 'None'
+[0.547s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'px4_ros_com' build argument 'cmake_target' from command line to 'None'
+[0.547s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'px4_ros_com' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.547s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'px4_ros_com' build argument 'cmake_clean_cache' from command line to 'False'
+[0.547s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'px4_ros_com' build argument 'cmake_clean_first' from command line to 'False'
+[0.547s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'px4_ros_com' build argument 'cmake_force_configure' from command line to 'False'
+[0.547s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'px4_ros_com' build argument 'ament_cmake_args' from command line to 'None'
+[0.547s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'px4_ros_com' build argument 'catkin_cmake_args' from command line to 'None'
+[0.547s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'px4_ros_com' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.547s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'px4_ros_com' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/catscanners/Documents/find-my-kitten/ros2_ws/build/px4_ros_com', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_ros_com', 'merge_install': False, 'path': '/home/catscanners/Documents/find-my-kitten/ros2_ws/src/px4_ros_com', 'symlink_install': False, 'test_result_base': None}[0m
+[0.547s] [34mcolcon.colcon_core.executor[0m [1;30mINFO[0m Executing jobs using 'parallel' executor
+[0.549s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete[0m
+[0.550s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/home/catscanners/Documents/find-my-kitten/ros2_ws/src/px4_msgs' with build type 'ament_cmake'
+[0.550s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/catscanners/Documents/find-my-kitten/ros2_ws/src/px4_msgs'
+[0.555s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.556s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.556s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[0.563s] [34mcolcon.colcon_ros.task.ament_python.build[0m [1;30mINFO[0m Building ROS package in '/home/catscanners/Documents/find-my-kitten/ros2_ws/src/py_pubsub' with build type 'ament_python'
+[0.564s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('py_pubsub', 'ament_prefix_path')
+[0.564s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/catscanners/Documents/find-my-kitten/ros2_ws/install/py_pubsub/share/py_pubsub/hook/ament_prefix_path.ps1'
+[0.566s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/catscanners/Documents/find-my-kitten/ros2_ws/install/py_pubsub/share/py_pubsub/hook/ament_prefix_path.dsv'
+[0.567s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/catscanners/Documents/find-my-kitten/ros2_ws/install/py_pubsub/share/py_pubsub/hook/ament_prefix_path.sh'
+[0.568s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.568s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[0.575s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/home/catscanners/Documents/find-my-kitten/ros2_ws/src/ros2_nodes' with build type 'ament_cmake'
+[0.575s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/catscanners/Documents/find-my-kitten/ros2_ws/src/ros2_nodes'
+[0.576s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.576s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[0.588s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/catscanners/Documents/find-my-kitten/ros2_ws/build/px4_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/catscanners/Documents/find-my-kitten/ros2_ws/install/py_pubsub:/opt/ros/humble /usr/bin/cmake /home/catscanners/Documents/find-my-kitten/ros2_ws/src/px4_msgs -DCMAKE_INSTALL_PREFIX=/home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_msgs[0m
+[1.112s] [34mcolcon.colcon_core.task.python.build[0m [1;30mINFO[0m Building Python package in '/home/catscanners/Documents/find-my-kitten/ros2_ws/src/py_pubsub'
+[1.113s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.113s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[1.137s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/catscanners/Documents/find-my-kitten/ros2_ws/build/ros2_nodes': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/catscanners/Documents/find-my-kitten/ros2_ws/install/py_pubsub:/opt/ros/humble /usr/bin/cmake --build /home/catscanners/Documents/find-my-kitten/ros2_ws/build/ros2_nodes -- -j6 -l6[0m
+[1.212s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/catscanners/Documents/find-my-kitten/ros2_ws/build/ros2_nodes' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/catscanners/Documents/find-my-kitten/ros2_ws/install/py_pubsub:/opt/ros/humble /usr/bin/cmake --build /home/catscanners/Documents/find-my-kitten/ros2_ws/build/ros2_nodes -- -j6 -l6[0m
+[1.237s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/catscanners/Documents/find-my-kitten/ros2_ws/build/ros2_nodes': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/catscanners/Documents/find-my-kitten/ros2_ws/install/py_pubsub:/opt/ros/humble /usr/bin/cmake --install /home/catscanners/Documents/find-my-kitten/ros2_ws/build/ros2_nodes[0m
+[1.264s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(ros2_nodes)
+[1.265s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/catscanners/Documents/find-my-kitten/ros2_ws/build/ros2_nodes' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/catscanners/Documents/find-my-kitten/ros2_ws/install/py_pubsub:/opt/ros/humble /usr/bin/cmake --install /home/catscanners/Documents/find-my-kitten/ros2_ws/build/ros2_nodes[0m
+[1.271s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/catscanners/Documents/find-my-kitten/ros2_ws/install/ros2_nodes' for CMake module files
+[1.272s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/catscanners/Documents/find-my-kitten/ros2_ws/install/ros2_nodes' for CMake config files
+[1.273s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('ros2_nodes', 'cmake_prefix_path')
+[1.273s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/catscanners/Documents/find-my-kitten/ros2_ws/install/ros2_nodes/share/ros2_nodes/hook/cmake_prefix_path.ps1'
+[1.274s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/catscanners/Documents/find-my-kitten/ros2_ws/install/ros2_nodes/share/ros2_nodes/hook/cmake_prefix_path.dsv'
+[1.275s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/catscanners/Documents/find-my-kitten/ros2_ws/install/ros2_nodes/share/ros2_nodes/hook/cmake_prefix_path.sh'
+[1.277s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/catscanners/Documents/find-my-kitten/ros2_ws/install/ros2_nodes/bin'
+[1.277s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/catscanners/Documents/find-my-kitten/ros2_ws/install/ros2_nodes/lib/pkgconfig/ros2_nodes.pc'
+[1.278s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/catscanners/Documents/find-my-kitten/ros2_ws/install/ros2_nodes/lib/python3.10/site-packages'
+[1.279s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/catscanners/Documents/find-my-kitten/ros2_ws/install/ros2_nodes/bin'
+[1.280s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/catscanners/Documents/find-my-kitten/ros2_ws/install/ros2_nodes/share/ros2_nodes/package.ps1'
+[1.281s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/catscanners/Documents/find-my-kitten/ros2_ws/install/ros2_nodes/share/ros2_nodes/package.dsv'
+[1.283s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/catscanners/Documents/find-my-kitten/ros2_ws/install/ros2_nodes/share/ros2_nodes/package.sh'
+[1.286s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/catscanners/Documents/find-my-kitten/ros2_ws/install/ros2_nodes/share/ros2_nodes/package.bash'
+[1.289s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/catscanners/Documents/find-my-kitten/ros2_ws/install/ros2_nodes/share/ros2_nodes/package.zsh'
+[1.291s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/catscanners/Documents/find-my-kitten/ros2_ws/install/ros2_nodes/share/colcon-core/packages/ros2_nodes)
+[1.293s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(ros2_nodes)
+[1.293s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/catscanners/Documents/find-my-kitten/ros2_ws/install/ros2_nodes' for CMake module files
+[1.294s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/catscanners/Documents/find-my-kitten/ros2_ws/install/ros2_nodes' for CMake config files
+[1.295s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('ros2_nodes', 'cmake_prefix_path')
+[1.296s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/catscanners/Documents/find-my-kitten/ros2_ws/install/ros2_nodes/share/ros2_nodes/hook/cmake_prefix_path.ps1'
+[1.297s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/catscanners/Documents/find-my-kitten/ros2_ws/install/ros2_nodes/share/ros2_nodes/hook/cmake_prefix_path.dsv'
+[1.298s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/catscanners/Documents/find-my-kitten/ros2_ws/install/ros2_nodes/share/ros2_nodes/hook/cmake_prefix_path.sh'
+[1.300s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/catscanners/Documents/find-my-kitten/ros2_ws/install/ros2_nodes/bin'
+[1.300s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/catscanners/Documents/find-my-kitten/ros2_ws/install/ros2_nodes/lib/pkgconfig/ros2_nodes.pc'
+[1.301s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/catscanners/Documents/find-my-kitten/ros2_ws/install/ros2_nodes/lib/python3.10/site-packages'
+[1.301s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/catscanners/Documents/find-my-kitten/ros2_ws/install/ros2_nodes/bin'
+[1.302s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/catscanners/Documents/find-my-kitten/ros2_ws/install/ros2_nodes/share/ros2_nodes/package.ps1'
+[1.303s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/catscanners/Documents/find-my-kitten/ros2_ws/install/ros2_nodes/share/ros2_nodes/package.dsv'
+[1.304s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/catscanners/Documents/find-my-kitten/ros2_ws/install/ros2_nodes/share/ros2_nodes/package.sh'
+[1.305s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/catscanners/Documents/find-my-kitten/ros2_ws/install/ros2_nodes/share/ros2_nodes/package.bash'
+[1.307s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/catscanners/Documents/find-my-kitten/ros2_ws/install/ros2_nodes/share/ros2_nodes/package.zsh'
+[1.308s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/catscanners/Documents/find-my-kitten/ros2_ws/install/ros2_nodes/share/colcon-core/packages/ros2_nodes)
+[2.579s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/catscanners/Documents/find-my-kitten/ros2_ws/src/py_pubsub': PYTHONPATH=/home/catscanners/Documents/find-my-kitten/ros2_ws/build/py_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/catscanners/Documents/find-my-kitten/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/catscanners/Documents/find-my-kitten/ros2_ws/build/py_pubsub/build install --record /home/catscanners/Documents/find-my-kitten/ros2_ws/build/py_pubsub/install.log --single-version-externally-managed install_data[0m
+[3.904s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/catscanners/Documents/find-my-kitten/ros2_ws/install/py_pubsub' for CMake module files
+[3.905s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/catscanners/Documents/find-my-kitten/ros2_ws/src/py_pubsub' returned '0': PYTHONPATH=/home/catscanners/Documents/find-my-kitten/ros2_ws/build/py_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/catscanners/Documents/find-my-kitten/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/catscanners/Documents/find-my-kitten/ros2_ws/build/py_pubsub/build install --record /home/catscanners/Documents/find-my-kitten/ros2_ws/build/py_pubsub/install.log --single-version-externally-managed install_data[0m
+[3.906s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/catscanners/Documents/find-my-kitten/ros2_ws/install/py_pubsub' for CMake config files
+[3.907s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/catscanners/Documents/find-my-kitten/ros2_ws/install/py_pubsub/lib'
+[3.908s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/catscanners/Documents/find-my-kitten/ros2_ws/install/py_pubsub/bin'
+[3.908s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/catscanners/Documents/find-my-kitten/ros2_ws/install/py_pubsub/lib/pkgconfig/py_pubsub.pc'
+[3.909s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/catscanners/Documents/find-my-kitten/ros2_ws/install/py_pubsub/lib/python3.10/site-packages'
+[3.909s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('py_pubsub', 'pythonpath')
+[3.909s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/catscanners/Documents/find-my-kitten/ros2_ws/install/py_pubsub/share/py_pubsub/hook/pythonpath.ps1'
+[3.911s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/catscanners/Documents/find-my-kitten/ros2_ws/install/py_pubsub/share/py_pubsub/hook/pythonpath.dsv'
+[3.912s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/catscanners/Documents/find-my-kitten/ros2_ws/install/py_pubsub/share/py_pubsub/hook/pythonpath.sh'
+[3.913s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/catscanners/Documents/find-my-kitten/ros2_ws/install/py_pubsub/bin'
+[3.913s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(py_pubsub)
+[3.914s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/catscanners/Documents/find-my-kitten/ros2_ws/install/py_pubsub/share/py_pubsub/package.ps1'
+[3.915s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/catscanners/Documents/find-my-kitten/ros2_ws/install/py_pubsub/share/py_pubsub/package.dsv'
+[3.916s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/catscanners/Documents/find-my-kitten/ros2_ws/install/py_pubsub/share/py_pubsub/package.sh'
+[3.917s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/catscanners/Documents/find-my-kitten/ros2_ws/install/py_pubsub/share/py_pubsub/package.bash'
+[3.918s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/catscanners/Documents/find-my-kitten/ros2_ws/install/py_pubsub/share/py_pubsub/package.zsh'
+[3.919s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/catscanners/Documents/find-my-kitten/ros2_ws/install/py_pubsub/share/colcon-core/packages/py_pubsub)
+[9.514s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/catscanners/Documents/find-my-kitten/ros2_ws/build/px4_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/catscanners/Documents/find-my-kitten/ros2_ws/install/py_pubsub:/opt/ros/humble /usr/bin/cmake /home/catscanners/Documents/find-my-kitten/ros2_ws/src/px4_msgs -DCMAKE_INSTALL_PREFIX=/home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_msgs[0m
+[9.515s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/catscanners/Documents/find-my-kitten/ros2_ws/build/px4_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/catscanners/Documents/find-my-kitten/ros2_ws/install/py_pubsub:/opt/ros/humble /usr/bin/cmake --build /home/catscanners/Documents/find-my-kitten/ros2_ws/build/px4_msgs -- -j6 -l6[0m
+[535.628s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/catscanners/Documents/find-my-kitten/ros2_ws/build/px4_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/catscanners/Documents/find-my-kitten/ros2_ws/install/py_pubsub:/opt/ros/humble /usr/bin/cmake --build /home/catscanners/Documents/find-my-kitten/ros2_ws/build/px4_msgs -- -j6 -l6[0m
+[535.633s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/catscanners/Documents/find-my-kitten/ros2_ws/build/px4_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/catscanners/Documents/find-my-kitten/ros2_ws/install/py_pubsub:/opt/ros/humble /usr/bin/cmake --install /home/catscanners/Documents/find-my-kitten/ros2_ws/build/px4_msgs[0m
+[538.152s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(px4_msgs)
+[538.153s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_msgs' for CMake module files
+[538.154s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/catscanners/Documents/find-my-kitten/ros2_ws/build/px4_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/catscanners/Documents/find-my-kitten/ros2_ws/install/py_pubsub:/opt/ros/humble /usr/bin/cmake --install /home/catscanners/Documents/find-my-kitten/ros2_ws/build/px4_msgs[0m
+[538.156s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_msgs' for CMake config files
+[538.177s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('px4_msgs', 'cmake_prefix_path')
+[538.179s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.ps1'
+[538.181s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.dsv'
+[538.182s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.sh'
+[538.184s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_msgs/lib'
+[538.184s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('px4_msgs', 'ld_library_path_lib')
+[538.185s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.ps1'
+[538.187s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.dsv'
+[538.188s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.sh'
+[538.189s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_msgs/bin'
+[538.190s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_msgs/lib/pkgconfig/px4_msgs.pc'
+[538.191s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_msgs/lib/python3.10/site-packages'
+[538.191s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_msgs/bin'
+[538.193s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_msgs/share/px4_msgs/package.ps1'
+[538.194s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_msgs/share/px4_msgs/package.dsv'
+[538.196s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_msgs/share/px4_msgs/package.sh'
+[538.198s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_msgs/share/px4_msgs/package.bash'
+[538.199s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_msgs/share/px4_msgs/package.zsh'
+[538.200s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_msgs/share/colcon-core/packages/px4_msgs)
+[538.202s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(px4_msgs)
+[538.203s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_msgs' for CMake module files
+[538.205s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_msgs' for CMake config files
+[538.221s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('px4_msgs', 'cmake_prefix_path')
+[538.221s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.ps1'
+[538.223s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.dsv'
+[538.224s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.sh'
+[538.225s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_msgs/lib'
+[538.226s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('px4_msgs', 'ld_library_path_lib')
+[538.226s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.ps1'
+[538.227s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.dsv'
+[538.228s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.sh'
+[538.229s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_msgs/bin'
+[538.229s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_msgs/lib/pkgconfig/px4_msgs.pc'
+[538.230s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_msgs/lib/python3.10/site-packages'
+[538.231s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_msgs/bin'
+[538.231s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_msgs/share/px4_msgs/package.ps1'
+[538.233s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_msgs/share/px4_msgs/package.dsv'
+[538.234s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_msgs/share/px4_msgs/package.sh'
+[538.236s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_msgs/share/px4_msgs/package.bash'
+[538.237s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_msgs/share/px4_msgs/package.zsh'
+[538.238s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_msgs/share/colcon-core/packages/px4_msgs)
+[538.239s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/home/catscanners/Documents/find-my-kitten/ros2_ws/src/px4_ros_com' with build type 'ament_cmake'
+[538.239s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/catscanners/Documents/find-my-kitten/ros2_ws/src/px4_ros_com'
+[538.240s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[538.240s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[538.270s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/catscanners/Documents/find-my-kitten/ros2_ws/build/px4_ros_com': AMENT_PREFIX_PATH=/home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_msgs:/home/catscanners/Documents/ws_sensor_combined/install/px4_ros_com:/home/catscanners/Documents/ws_sensor_combined/install/px4_msgs:/home/catscanners/Documents/find-my-kitten/ros2_ws/install/py_pubsub:/opt/ros/humble LD_LIBRARY_PATH=/home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/catscanners/Documents/find-my-kitten/ros2_ws/build/px4_ros_com -- -j6 -l6[0m
+[539.592s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/catscanners/Documents/find-my-kitten/ros2_ws/build/px4_ros_com' returned '0': AMENT_PREFIX_PATH=/home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_msgs:/home/catscanners/Documents/ws_sensor_combined/install/px4_ros_com:/home/catscanners/Documents/ws_sensor_combined/install/px4_msgs:/home/catscanners/Documents/find-my-kitten/ros2_ws/install/py_pubsub:/opt/ros/humble LD_LIBRARY_PATH=/home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/catscanners/Documents/find-my-kitten/ros2_ws/build/px4_ros_com -- -j6 -l6[0m
+[539.597s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/catscanners/Documents/find-my-kitten/ros2_ws/build/px4_ros_com': AMENT_PREFIX_PATH=/home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_msgs:/home/catscanners/Documents/ws_sensor_combined/install/px4_ros_com:/home/catscanners/Documents/ws_sensor_combined/install/px4_msgs:/home/catscanners/Documents/find-my-kitten/ros2_ws/install/py_pubsub:/opt/ros/humble LD_LIBRARY_PATH=/home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/catscanners/Documents/find-my-kitten/ros2_ws/build/px4_ros_com[0m
+[539.713s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(px4_ros_com)
+[539.714s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_ros_com' for CMake module files
+[539.716s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/catscanners/Documents/find-my-kitten/ros2_ws/build/px4_ros_com' returned '0': AMENT_PREFIX_PATH=/home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_msgs:/home/catscanners/Documents/ws_sensor_combined/install/px4_ros_com:/home/catscanners/Documents/ws_sensor_combined/install/px4_msgs:/home/catscanners/Documents/find-my-kitten/ros2_ws/install/py_pubsub:/opt/ros/humble LD_LIBRARY_PATH=/home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/catscanners/Documents/find-my-kitten/ros2_ws/build/px4_ros_com[0m
+[539.717s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_ros_com' for CMake config files
+[539.719s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('px4_ros_com', 'cmake_prefix_path')
+[539.720s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_ros_com/share/px4_ros_com/hook/cmake_prefix_path.ps1'
+[539.722s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_ros_com/share/px4_ros_com/hook/cmake_prefix_path.dsv'
+[539.723s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_ros_com/share/px4_ros_com/hook/cmake_prefix_path.sh'
+[539.726s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_ros_com/lib'
+[539.726s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('px4_ros_com', 'ld_library_path_lib')
+[539.727s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_ros_com/share/px4_ros_com/hook/ld_library_path_lib.ps1'
+[539.729s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_ros_com/share/px4_ros_com/hook/ld_library_path_lib.dsv'
+[539.730s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_ros_com/share/px4_ros_com/hook/ld_library_path_lib.sh'
+[539.732s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_ros_com/bin'
+[539.732s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_ros_com/lib/pkgconfig/px4_ros_com.pc'
+[539.733s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_ros_com/lib/python3.10/site-packages'
+[539.734s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_ros_com/bin'
+[539.735s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_ros_com/share/px4_ros_com/package.ps1'
+[539.737s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_ros_com/share/px4_ros_com/package.dsv'
+[539.739s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_ros_com/share/px4_ros_com/package.sh'
+[539.741s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_ros_com/share/px4_ros_com/package.bash'
+[539.742s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_ros_com/share/px4_ros_com/package.zsh'
+[539.744s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_ros_com/share/colcon-core/packages/px4_ros_com)
+[539.746s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(px4_ros_com)
+[539.747s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_ros_com' for CMake module files
+[539.749s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_ros_com' for CMake config files
+[539.751s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('px4_ros_com', 'cmake_prefix_path')
+[539.752s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_ros_com/share/px4_ros_com/hook/cmake_prefix_path.ps1'
+[539.753s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_ros_com/share/px4_ros_com/hook/cmake_prefix_path.dsv'
+[539.756s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_ros_com/share/px4_ros_com/hook/cmake_prefix_path.sh'
+[539.758s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_ros_com/lib'
+[539.758s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('px4_ros_com', 'ld_library_path_lib')
+[539.759s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_ros_com/share/px4_ros_com/hook/ld_library_path_lib.ps1'
+[539.761s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_ros_com/share/px4_ros_com/hook/ld_library_path_lib.dsv'
+[539.762s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_ros_com/share/px4_ros_com/hook/ld_library_path_lib.sh'
+[539.763s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_ros_com/bin'
+[539.764s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_ros_com/lib/pkgconfig/px4_ros_com.pc'
+[539.765s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_ros_com/lib/python3.10/site-packages'
+[539.765s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_ros_com/bin'
+[539.767s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_ros_com/share/px4_ros_com/package.ps1'
+[539.768s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_ros_com/share/px4_ros_com/package.dsv'
+[539.770s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_ros_com/share/px4_ros_com/package.sh'
+[539.772s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_ros_com/share/px4_ros_com/package.bash'
+[539.773s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_ros_com/share/px4_ros_com/package.zsh'
+[539.775s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_ros_com/share/colcon-core/packages/px4_ros_com)
+[539.776s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mclosing loop[0m
+[539.777s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mloop closed[0m
+[539.777s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete finished with '0'[0m
+[539.778s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoining thread[0m
+[539.795s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[539.796s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[539.796s] [34mcolcon.colcon_notification.desktop_notification[0m [1;30mINFO[0m Sending desktop notification using 'notify2'
+[539.796s] [34mcolcon.colcon_notification.desktop_notification.notify2[0m [1;30mDEBUG[0m [32mFailed to initialize notify2: org.freedesktop.DBus.Error.NotSupported: Unable to autolaunch a dbus-daemon without a $DISPLAY for X11[0m
+[539.797s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoined thread[0m
+[539.798s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/catscanners/Documents/find-my-kitten/ros2_ws/install/local_setup.ps1'
+[539.802s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module '/home/catscanners/Documents/find-my-kitten/ros2_ws/install/_local_setup_util_ps1.py'
+[539.807s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/catscanners/Documents/find-my-kitten/ros2_ws/install/setup.ps1'
+[539.812s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/catscanners/Documents/find-my-kitten/ros2_ws/install/local_setup.sh'
+[539.814s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module '/home/catscanners/Documents/find-my-kitten/ros2_ws/install/_local_setup_util_sh.py'
+[539.817s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/catscanners/Documents/find-my-kitten/ros2_ws/install/setup.sh'
+[539.821s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/catscanners/Documents/find-my-kitten/ros2_ws/install/local_setup.bash'
+[539.823s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/catscanners/Documents/find-my-kitten/ros2_ws/install/setup.bash'
+[539.827s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/catscanners/Documents/find-my-kitten/ros2_ws/install/local_setup.zsh'
+[539.829s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/catscanners/Documents/find-my-kitten/ros2_ws/install/setup.zsh'

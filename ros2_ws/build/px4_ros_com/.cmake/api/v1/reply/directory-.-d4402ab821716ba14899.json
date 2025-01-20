@@ -1,0 +1,805 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"ament_environment_hooks",
+			"_ament_cmake_export_libraries_register_environment_hook",
+			"ament_export_targets",
+			"_ament_cmake_python_register_environment_hook",
+			"ament_python_install_package",
+			"_ament_cmake_python_install_package",
+			"ament_index_register_resource",
+			"ament_cmake_environment_generate_package_run_dependencies_marker",
+			"include",
+			"ament_execute_extensions",
+			"ament_package",
+			"ament_cmake_environment_generate_parent_prefix_path_marker",
+			"ament_generate_package_environment",
+			"ament_index_register_package",
+			"_ament_package"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt",
+			"/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/ament_environment_hooks.cmake",
+			"/opt/ros/humble/share/ament_cmake_export_libraries/cmake/ament_cmake_export_libraries-extras.cmake",
+			"/opt/ros/humble/share/ament_cmake_export_targets/cmake/ament_export_targets.cmake",
+			"/opt/ros/humble/share/ament_cmake_python/cmake/ament_cmake_python-extras.cmake",
+			"/opt/ros/humble/share/ament_cmake_python/cmake/ament_python_install_package.cmake",
+			"/opt/ros/humble/share/ament_cmake_core/cmake/index/ament_index_register_resource.cmake",
+			"/opt/ros/humble/share/ament_cmake_core/cmake/environment/ament_cmake_environment_package_hook.cmake",
+			"/opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake",
+			"/opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package.cmake",
+			"/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/ament_cmake_environment_hooks_package_hook.cmake",
+			"/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/ament_generate_package_environment.cmake",
+			"/opt/ros/humble/share/ament_cmake_core/cmake/index/ament_index_register_package.cmake",
+			"/opt/ros/humble/share/ament_cmake_core/cmake/index/ament_cmake_index_package_hook.cmake",
+			"/opt/ros/humble/share/ament_cmake_export_targets/cmake/ament_cmake_export_targets_package_hook.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 47,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 52,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 57,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 62,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 67,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 77,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 3,
+				"line" : 59,
+				"parent" : 6
+			},
+			{
+				"command" : 1,
+				"file" : 2,
+				"line" : 25,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 70,
+				"parent" : 8
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 87,
+				"parent" : 8
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 83,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 85,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 94,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 97,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 120,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 5,
+				"line" : 38,
+				"parent" : 15
+			},
+			{
+				"command" : 1,
+				"file" : 4,
+				"line" : 36,
+				"parent" : 16
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 70,
+				"parent" : 17
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 87,
+				"parent" : 17
+			},
+			{
+				"command" : 6,
+				"file" : 5,
+				"line" : 39,
+				"parent" : 15
+			},
+			{
+				"command" : 0,
+				"file" : 5,
+				"line" : 154,
+				"parent" : 20
+			},
+			{
+				"command" : 0,
+				"file" : 5,
+				"line" : 181,
+				"parent" : 20
+			},
+			{
+				"command" : 0,
+				"file" : 5,
+				"line" : 191,
+				"parent" : 20
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 123,
+				"parent" : 0
+			},
+			{
+				"command" : 11,
+				"file" : 0,
+				"line" : 128,
+				"parent" : 0
+			},
+			{
+				"command" : 10,
+				"file" : 9,
+				"line" : 66,
+				"parent" : 25
+			},
+			{
+				"command" : 9,
+				"file" : 8,
+				"line" : 48,
+				"parent" : 26
+			},
+			{
+				"file" : 7,
+				"parent" : 27
+			},
+			{
+				"command" : 8,
+				"file" : 7,
+				"line" : 47,
+				"parent" : 28
+			},
+			{
+				"command" : 7,
+				"file" : 7,
+				"line" : 29,
+				"parent" : 29
+			},
+			{
+				"command" : 0,
+				"file" : 6,
+				"line" : 105,
+				"parent" : 30
+			},
+			{
+				"command" : 12,
+				"file" : 7,
+				"line" : 48,
+				"parent" : 28
+			},
+			{
+				"command" : 7,
+				"file" : 7,
+				"line" : 43,
+				"parent" : 32
+			},
+			{
+				"command" : 0,
+				"file" : 6,
+				"line" : 105,
+				"parent" : 33
+			},
+			{
+				"command" : 9,
+				"file" : 8,
+				"line" : 48,
+				"parent" : 26
+			},
+			{
+				"file" : 10,
+				"parent" : 35
+			},
+			{
+				"command" : 1,
+				"file" : 10,
+				"line" : 20,
+				"parent" : 36
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 70,
+				"parent" : 37
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 87,
+				"parent" : 37
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 70,
+				"parent" : 37
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 87,
+				"parent" : 37
+			},
+			{
+				"command" : 13,
+				"file" : 10,
+				"line" : 26,
+				"parent" : 36
+			},
+			{
+				"command" : 0,
+				"file" : 11,
+				"line" : 91,
+				"parent" : 42
+			},
+			{
+				"command" : 0,
+				"file" : 11,
+				"line" : 91,
+				"parent" : 42
+			},
+			{
+				"command" : 0,
+				"file" : 11,
+				"line" : 91,
+				"parent" : 42
+			},
+			{
+				"command" : 0,
+				"file" : 11,
+				"line" : 107,
+				"parent" : 42
+			},
+			{
+				"command" : 0,
+				"file" : 11,
+				"line" : 119,
+				"parent" : 42
+			},
+			{
+				"command" : 9,
+				"file" : 8,
+				"line" : 48,
+				"parent" : 26
+			},
+			{
+				"file" : 13,
+				"parent" : 48
+			},
+			{
+				"command" : 14,
+				"file" : 13,
+				"line" : 16,
+				"parent" : 49
+			},
+			{
+				"command" : 7,
+				"file" : 12,
+				"line" : 29,
+				"parent" : 50
+			},
+			{
+				"command" : 0,
+				"file" : 6,
+				"line" : 105,
+				"parent" : 51
+			},
+			{
+				"command" : 9,
+				"file" : 8,
+				"line" : 48,
+				"parent" : 26
+			},
+			{
+				"file" : 14,
+				"parent" : 53
+			},
+			{
+				"command" : 0,
+				"file" : 14,
+				"line" : 28,
+				"parent" : 54
+			},
+			{
+				"command" : 15,
+				"file" : 9,
+				"line" : 68,
+				"parent" : 25
+			},
+			{
+				"command" : 0,
+				"file" : 9,
+				"line" : 122,
+				"parent" : 56
+			},
+			{
+				"command" : 0,
+				"file" : 9,
+				"line" : 122,
+				"parent" : 56
+			},
+			{
+				"command" : 0,
+				"file" : 9,
+				"line" : 122,
+				"parent" : 56
+			},
+			{
+				"command" : 0,
+				"file" : 9,
+				"line" : 122,
+				"parent" : 56
+			},
+			{
+				"command" : 0,
+				"file" : 9,
+				"line" : 150,
+				"parent" : 56
+			},
+			{
+				"command" : 0,
+				"file" : 9,
+				"line" : 157,
+				"parent" : 56
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib/px4_ros_com",
+			"paths" : 
+			[
+				"sensor_combined_listener"
+			],
+			"targetId" : "sensor_combined_listener::@6890427a1f51a3e7e1df",
+			"targetIndex" : 7,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "lib/px4_ros_com",
+			"paths" : 
+			[
+				"vehicle_gps_position_listener"
+			],
+			"targetId" : "vehicle_gps_position_listener::@6890427a1f51a3e7e1df",
+			"targetIndex" : 9,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "lib/px4_ros_com",
+			"paths" : 
+			[
+				"debug_vect_advertiser"
+			],
+			"targetId" : "debug_vect_advertiser::@6890427a1f51a3e7e1df",
+			"targetIndex" : 2,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "Unspecified",
+			"destination" : "lib/px4_ros_com",
+			"paths" : 
+			[
+				"offboard_control"
+			],
+			"targetId" : "offboard_control::@6890427a1f51a3e7e1df",
+			"targetIndex" : 4,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "Unspecified",
+			"destination" : "lib/px4_ros_com",
+			"paths" : 
+			[
+				"offboard_control_srv"
+			],
+			"targetId" : "offboard_control_srv::@6890427a1f51a3e7e1df",
+			"targetIndex" : 5,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 9,
+			"component" : "Unspecified",
+			"destination" : "share/px4_ros_com/environment",
+			"paths" : 
+			[
+				"/opt/ros/humble/lib/python3.10/site-packages/ament_package/template/environment_hook/library_path.sh"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 10,
+			"component" : "Unspecified",
+			"destination" : "share/px4_ros_com/environment",
+			"paths" : 
+			[
+				"/home/catscanners/Documents/find-my-kitten/ros2_ws/build/px4_ros_com/ament_cmake_environment_hooks/library_path.dsv"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 11,
+			"component" : "Unspecified",
+			"destination" : "include/px4_ros_com",
+			"paths" : 
+			[
+				{
+					"from" : "include/px4_ros_com",
+					"to" : "."
+				}
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 12,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"libframe_transforms.so"
+			],
+			"targetId" : "frame_transforms::@6890427a1f51a3e7e1df",
+			"targetIndex" : 3,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 13,
+			"component" : "Unspecified",
+			"destination" : "share/px4_ros_com/",
+			"paths" : 
+			[
+				"launch"
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 14,
+			"component" : "Unspecified",
+			"destination" : "share/px4_ros_com/",
+			"paths" : 
+			[
+				"test"
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 18,
+			"component" : "Unspecified",
+			"destination" : "share/px4_ros_com/environment",
+			"paths" : 
+			[
+				"/home/catscanners/Documents/find-my-kitten/ros2_ws/build/px4_ros_com/ament_cmake_environment_hooks/pythonpath.sh"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 19,
+			"component" : "Unspecified",
+			"destination" : "share/px4_ros_com/environment",
+			"paths" : 
+			[
+				"/home/catscanners/Documents/find-my-kitten/ros2_ws/build/px4_ros_com/ament_cmake_environment_hooks/pythonpath.dsv"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 21,
+			"component" : "Unspecified",
+			"destination" : "local/lib/python3.10/dist-packages/px4_ros_com-0.1.0-py3.10.egg-info",
+			"paths" : 
+			[
+				{
+					"from" : "/home/catscanners/Documents/find-my-kitten/ros2_ws/build/px4_ros_com/ament_cmake_python/px4_ros_com/px4_ros_com.egg-info",
+					"to" : "."
+				}
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 22,
+			"component" : "Unspecified",
+			"destination" : "local/lib/python3.10/dist-packages/px4_ros_com",
+			"paths" : 
+			[
+				{
+					"from" : "px4_ros_com",
+					"to" : "."
+				}
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 23,
+			"component" : "Unspecified",
+			"type" : "code"
+		},
+		{
+			"backtrace" : 24,
+			"component" : "Unspecified",
+			"destination" : "lib/px4_ros_com",
+			"paths" : 
+			[
+				"src/examples/offboard_py/offboard_control.py"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 31,
+			"component" : "Unspecified",
+			"destination" : "share/ament_index/resource_index/package_run_dependencies",
+			"paths" : 
+			[
+				"/home/catscanners/Documents/find-my-kitten/ros2_ws/build/px4_ros_com/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/px4_ros_com"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 34,
+			"component" : "Unspecified",
+			"destination" : "share/ament_index/resource_index/parent_prefix_path",
+			"paths" : 
+			[
+				"/home/catscanners/Documents/find-my-kitten/ros2_ws/build/px4_ros_com/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/px4_ros_com"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 38,
+			"component" : "Unspecified",
+			"destination" : "share/px4_ros_com/environment",
+			"paths" : 
+			[
+				"/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 39,
+			"component" : "Unspecified",
+			"destination" : "share/px4_ros_com/environment",
+			"paths" : 
+			[
+				"/home/catscanners/Documents/find-my-kitten/ros2_ws/build/px4_ros_com/ament_cmake_environment_hooks/ament_prefix_path.dsv"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 40,
+			"component" : "Unspecified",
+			"destination" : "share/px4_ros_com/environment",
+			"paths" : 
+			[
+				"/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 41,
+			"component" : "Unspecified",
+			"destination" : "share/px4_ros_com/environment",
+			"paths" : 
+			[
+				"/home/catscanners/Documents/find-my-kitten/ros2_ws/build/px4_ros_com/ament_cmake_environment_hooks/path.dsv"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 43,
+			"component" : "Unspecified",
+			"destination" : "share/px4_ros_com",
+			"paths" : 
+			[
+				"/home/catscanners/Documents/find-my-kitten/ros2_ws/build/px4_ros_com/ament_cmake_environment_hooks/local_setup.bash"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 44,
+			"component" : "Unspecified",
+			"destination" : "share/px4_ros_com",
+			"paths" : 
+			[
+				"/home/catscanners/Documents/find-my-kitten/ros2_ws/build/px4_ros_com/ament_cmake_environment_hooks/local_setup.sh"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 45,
+			"component" : "Unspecified",
+			"destination" : "share/px4_ros_com",
+			"paths" : 
+			[
+				"/home/catscanners/Documents/find-my-kitten/ros2_ws/build/px4_ros_com/ament_cmake_environment_hooks/local_setup.zsh"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 46,
+			"component" : "Unspecified",
+			"destination" : "share/px4_ros_com",
+			"paths" : 
+			[
+				"/home/catscanners/Documents/find-my-kitten/ros2_ws/build/px4_ros_com/ament_cmake_environment_hooks/local_setup.dsv"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 47,
+			"component" : "Unspecified",
+			"destination" : "share/px4_ros_com",
+			"paths" : 
+			[
+				"/home/catscanners/Documents/find-my-kitten/ros2_ws/build/px4_ros_com/ament_cmake_environment_hooks/package.dsv"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 52,
+			"component" : "Unspecified",
+			"destination" : "share/ament_index/resource_index/packages",
+			"paths" : 
+			[
+				"/home/catscanners/Documents/find-my-kitten/ros2_ws/build/px4_ros_com/ament_cmake_index/share/ament_index/resource_index/packages/px4_ros_com"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 55,
+			"component" : "Unspecified",
+			"destination" : "share/px4_ros_com/cmake",
+			"exportName" : "export_frame_transforms",
+			"exportTargets" : 
+			[
+				{
+					"id" : "frame_transforms::@6890427a1f51a3e7e1df",
+					"index" : 3
+				}
+			],
+			"paths" : 
+			[
+				"CMakeFiles/Export/share/px4_ros_com/cmake/export_frame_transformsExport.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 57,
+			"component" : "Unspecified",
+			"destination" : "share/px4_ros_com/cmake",
+			"paths" : 
+			[
+				"/home/catscanners/Documents/find-my-kitten/ros2_ws/build/px4_ros_com/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 58,
+			"component" : "Unspecified",
+			"destination" : "share/px4_ros_com/cmake",
+			"paths" : 
+			[
+				"/home/catscanners/Documents/find-my-kitten/ros2_ws/build/px4_ros_com/ament_cmake_export_targets/ament_cmake_export_targets-extras.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 59,
+			"component" : "Unspecified",
+			"destination" : "share/px4_ros_com/cmake",
+			"paths" : 
+			[
+				"/home/catscanners/Documents/find-my-kitten/ros2_ws/build/px4_ros_com/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 60,
+			"component" : "Unspecified",
+			"destination" : "share/px4_ros_com/cmake",
+			"paths" : 
+			[
+				"/home/catscanners/Documents/find-my-kitten/ros2_ws/build/px4_ros_com/ament_cmake_export_libraries/ament_cmake_export_libraries-extras.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 61,
+			"component" : "Unspecified",
+			"destination" : "share/px4_ros_com/cmake",
+			"paths" : 
+			[
+				"/home/catscanners/Documents/find-my-kitten/ros2_ws/build/px4_ros_com/ament_cmake_core/px4_ros_comConfig.cmake",
+				"/home/catscanners/Documents/find-my-kitten/ros2_ws/build/px4_ros_com/ament_cmake_core/px4_ros_comConfig-version.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 62,
+			"component" : "Unspecified",
+			"destination" : "share/px4_ros_com",
+			"paths" : 
+			[
+				"package.xml"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	}
+}

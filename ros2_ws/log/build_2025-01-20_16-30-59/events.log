@@ -1,0 +1,546 @@
+[0.000000] (-) TimerEvent: {}
+[0.000993] (px4_ros_com) JobQueued: {'identifier': 'px4_ros_com', 'dependencies': OrderedDict()}
+[0.001716] (py_pubsub) JobQueued: {'identifier': 'py_pubsub', 'dependencies': OrderedDict()}
+[0.002087] (ros2_nodes) JobQueued: {'identifier': 'ros2_nodes', 'dependencies': OrderedDict()}
+[0.002493] (px4_ros_com) JobStarted: {'identifier': 'px4_ros_com'}
+[0.014805] (py_pubsub) JobStarted: {'identifier': 'py_pubsub'}
+[0.029162] (ros2_nodes) JobStarted: {'identifier': 'ros2_nodes'}
+[0.040555] (px4_ros_com) JobProgress: {'identifier': 'px4_ros_com', 'progress': 'cmake'}
+[0.041711] (px4_ros_com) Command: {'cmd': ['/usr/bin/cmake', '/home/catscanners/Documents/find-my-kitten/ros2_ws/src/px4_ros_com', '-DCMAKE_INSTALL_PREFIX=/home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_ros_com'], 'cwd': '/home/catscanners/Documents/find-my-kitten/ros2_ws/build/px4_ros_com', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('MAIL', '/var/mail/catscanners'), ('USER', 'catscanners'), ('SSH_CLIENT', '86.50.141.222 30586 2415'), ('SSH_AGENT_PID', '88552'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/catscanners/Documents/ws_sensor_combined/install/px4_ros_com/lib:/home/catscanners/Documents/ws_sensor_combined/install/px4_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/catscanners'), ('OLDPWD', '/home/catscanners/Documents/find-my-kitten/ros2_ws/src'), ('SSH_TTY', '/dev/pts/2'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'C.UTF-8'), ('COLCON_PREFIX_PATH', '/home/catscanners/Documents/find-my-kitten/ros2_ws/install:/home/catscanners/Documents/ws_sensor_combined/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'catscanners'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ISAAC_ROS_WS', '/ssd/workspaces/isaac_ros-dev'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/catscanners/.local/bin:/home/catscanners/.local/bin:/home/catscanners/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/snap/bin'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/tmp/ssh-XXXXXXjmRWpu/agent.88551'), ('AMENT_PREFIX_PATH', '/home/catscanners/Documents/find-my-kitten/ros2_ws/install/py_pubsub:/home/catscanners/Documents/ws_sensor_combined/install/px4_ros_com:/home/catscanners/Documents/ws_sensor_combined/install/px4_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/catscanners/Documents/find-my-kitten/ros2_ws/build/px4_ros_com'), ('SSH_CONNECTION', '86.50.141.222 30586 82.130.11.159 2415'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/catscanners/Documents/find-my-kitten/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:/home/catscanners/Documents/ws_sensor_combined/install/px4_ros_com/local/lib/python3.10/dist-packages:/home/catscanners/Documents/ws_sensor_combined/install/px4_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/catscanners/Documents/ws_sensor_combined/install/px4_ros_com:/home/catscanners/Documents/ws_sensor_combined/install/px4_msgs:/home/catscanners/Documents/find-my-kitten/ros2_ws/install/py_pubsub:/opt/ros/humble')]), 'shell': False}
+[0.099418] (-) TimerEvent: {}
+[0.200015] (-) TimerEvent: {}
+[0.300639] (-) TimerEvent: {}
+[0.401285] (-) TimerEvent: {}
+[0.501886] (-) TimerEvent: {}
+[0.579705] (ros2_nodes) JobProgress: {'identifier': 'ros2_nodes', 'progress': 'cmake'}
+[0.580395] (px4_ros_com) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.581908] (ros2_nodes) Command: {'cmd': ['/usr/bin/cmake', '/home/catscanners/Documents/find-my-kitten/ros2_ws/src/ros2_nodes', '-DCMAKE_INSTALL_PREFIX=/home/catscanners/Documents/find-my-kitten/ros2_ws/install/ros2_nodes'], 'cwd': '/home/catscanners/Documents/find-my-kitten/ros2_ws/build/ros2_nodes', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('MAIL', '/var/mail/catscanners'), ('USER', 'catscanners'), ('SSH_CLIENT', '86.50.141.222 30586 2415'), ('SSH_AGENT_PID', '88552'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/catscanners/Documents/ws_sensor_combined/install/px4_ros_com/lib:/home/catscanners/Documents/ws_sensor_combined/install/px4_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/catscanners'), ('OLDPWD', '/home/catscanners/Documents/find-my-kitten/ros2_ws/src'), ('SSH_TTY', '/dev/pts/2'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'C.UTF-8'), ('COLCON_PREFIX_PATH', '/home/catscanners/Documents/find-my-kitten/ros2_ws/install:/home/catscanners/Documents/ws_sensor_combined/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'catscanners'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ISAAC_ROS_WS', '/ssd/workspaces/isaac_ros-dev'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/catscanners/.local/bin:/home/catscanners/.local/bin:/home/catscanners/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/snap/bin'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/tmp/ssh-XXXXXXjmRWpu/agent.88551'), ('AMENT_PREFIX_PATH', '/home/catscanners/Documents/find-my-kitten/ros2_ws/install/py_pubsub:/home/catscanners/Documents/ws_sensor_combined/install/px4_ros_com:/home/catscanners/Documents/ws_sensor_combined/install/px4_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/catscanners/Documents/find-my-kitten/ros2_ws/build/ros2_nodes'), ('SSH_CONNECTION', '86.50.141.222 30586 82.130.11.159 2415'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/catscanners/Documents/find-my-kitten/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:/home/catscanners/Documents/ws_sensor_combined/install/px4_ros_com/local/lib/python3.10/dist-packages:/home/catscanners/Documents/ws_sensor_combined/install/px4_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/catscanners/Documents/ws_sensor_combined/install/px4_ros_com:/home/catscanners/Documents/ws_sensor_combined/install/px4_msgs:/home/catscanners/Documents/find-my-kitten/ros2_ws/install/py_pubsub:/opt/ros/humble')]), 'shell': False}
+[0.602118] (-) TimerEvent: {}
+[0.607791] (px4_ros_com) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.635922] (px4_ros_com) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.698811] (ros2_nodes) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.702228] (-) TimerEvent: {}
+[0.801835] (px4_ros_com) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.802434] (-) TimerEvent: {}
+[0.815563] (ros2_nodes) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.819648] (px4_ros_com) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.822895] (px4_ros_com) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.825359] (px4_ros_com) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.829306] (ros2_nodes) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.838714] (px4_ros_com) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.902618] (-) TimerEvent: {}
+[0.982318] (ros2_nodes) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.002778] (-) TimerEvent: {}
+[1.005116] (px4_ros_com) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.005753] (ros2_nodes) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.006779] (ros2_nodes) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.008089] (ros2_nodes) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.018634] (px4_ros_com) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.019336] (px4_ros_com) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.019647] (ros2_nodes) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.019986] (px4_ros_com) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.025240] (px4_ros_com) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.102950] (-) TimerEvent: {}
+[1.203565] (-) TimerEvent: {}
+[1.211398] (ros2_nodes) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.232111] (ros2_nodes) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.233479] (ros2_nodes) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.235084] (ros2_nodes) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.242493] (ros2_nodes) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.303717] (-) TimerEvent: {}
+[1.404306] (-) TimerEvent: {}
+[1.504988] (-) TimerEvent: {}
+[1.605633] (-) TimerEvent: {}
+[1.706320] (-) TimerEvent: {}
+[1.806981] (-) TimerEvent: {}
+[1.907610] (-) TimerEvent: {}
+[1.919352] (px4_ros_com) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[2.007773] (-) TimerEvent: {}
+[2.056924] (py_pubsub) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/py_pubsub', 'build', '--build-base', '/home/catscanners/Documents/find-my-kitten/ros2_ws/build/py_pubsub/build', 'install', '--record', '/home/catscanners/Documents/find-my-kitten/ros2_ws/build/py_pubsub/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/catscanners/Documents/find-my-kitten/ros2_ws/src/py_pubsub', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'MAIL': '/var/mail/catscanners', 'USER': 'catscanners', 'SSH_CLIENT': '86.50.141.222 30586 2415', 'SSH_AGENT_PID': '88552', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/catscanners/Documents/ws_sensor_combined/install/px4_ros_com/lib:/home/catscanners/Documents/ws_sensor_combined/install/px4_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/catscanners', 'OLDPWD': '/home/catscanners/Documents/find-my-kitten/ros2_ws/src', 'SSH_TTY': '/dev/pts/2', 'ROS_PYTHON_VERSION': '3', 'LC_CTYPE': 'C.UTF-8', 'COLCON_PREFIX_PATH': '/home/catscanners/Documents/find-my-kitten/ros2_ws/install:/home/catscanners/Documents/ws_sensor_combined/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'catscanners', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ISAAC_ROS_WS': '/ssd/workspaces/isaac_ros-dev', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/catscanners/.local/bin:/home/catscanners/.local/bin:/home/catscanners/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/snap/bin', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AUTH_SOCK': '/tmp/ssh-XXXXXXjmRWpu/agent.88551', 'AMENT_PREFIX_PATH': '/home/catscanners/Documents/find-my-kitten/ros2_ws/install/py_pubsub:/home/catscanners/Documents/ws_sensor_combined/install/px4_ros_com:/home/catscanners/Documents/ws_sensor_combined/install/px4_msgs:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/catscanners/Documents/find-my-kitten/ros2_ws/build/py_pubsub', 'SSH_CONNECTION': '86.50.141.222 30586 82.130.11.159 2415', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/catscanners/Documents/find-my-kitten/ros2_ws/build/py_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/catscanners/Documents/find-my-kitten/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:/home/catscanners/Documents/find-my-kitten/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:/home/catscanners/Documents/ws_sensor_combined/install/px4_ros_com/local/lib/python3.10/dist-packages:/home/catscanners/Documents/ws_sensor_combined/install/px4_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/catscanners/Documents/ws_sensor_combined/install/px4_ros_com:/home/catscanners/Documents/ws_sensor_combined/install/px4_msgs'}, 'shell': False}
+[2.107976] (-) TimerEvent: {}
+[2.120731] (px4_ros_com) StdoutLine: {'line': b'-- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)\n'}
+[2.125048] (ros2_nodes) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[2.186850] (px4_ros_com) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[2.197073] (px4_ros_com) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[2.208145] (-) TimerEvent: {}
+[2.214516] (px4_ros_com) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[2.239319] (px4_ros_com) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.272944] (px4_ros_com) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.303353] (px4_ros_com) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[2.308256] (-) TimerEvent: {}
+[2.317617] (px4_ros_com) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[2.320515] (px4_ros_com) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[2.344822] (ros2_nodes) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.373346] (px4_ros_com) StdoutLine: {'line': b'-- Found px4_msgs: 2.0.1 (/home/catscanners/Documents/ws_sensor_combined/install/px4_msgs/share/px4_msgs/cmake)\n'}
+[2.398487] (px4_ros_com) StdoutLine: {'line': b'-- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[2.408405] (-) TimerEvent: {}
+[2.479584] (px4_ros_com) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[2.485504] (px4_ros_com) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.508563] (-) TimerEvent: {}
+[2.545726] (ros2_nodes) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.548305] (ros2_nodes) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.552008] (ros2_nodes) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.560189] (ros2_nodes) StdoutLine: {'line': b'-- Generating done\n'}
+[2.564693] (ros2_nodes) StdoutLine: {'line': b'-- Build files have been written to: /home/catscanners/Documents/find-my-kitten/ros2_ws/build/ros2_nodes\n'}
+[2.579942] (ros2_nodes) CommandEnded: {'returncode': 0}
+[2.582111] (ros2_nodes) JobProgress: {'identifier': 'ros2_nodes', 'progress': 'build'}
+[2.582232] (ros2_nodes) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/catscanners/Documents/find-my-kitten/ros2_ws/build/ros2_nodes', '--', '-j6', '-l6'], 'cwd': '/home/catscanners/Documents/find-my-kitten/ros2_ws/build/ros2_nodes', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('MAIL', '/var/mail/catscanners'), ('USER', 'catscanners'), ('SSH_CLIENT', '86.50.141.222 30586 2415'), ('SSH_AGENT_PID', '88552'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/catscanners/Documents/ws_sensor_combined/install/px4_ros_com/lib:/home/catscanners/Documents/ws_sensor_combined/install/px4_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/catscanners'), ('OLDPWD', '/home/catscanners/Documents/find-my-kitten/ros2_ws/src'), ('SSH_TTY', '/dev/pts/2'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'C.UTF-8'), ('COLCON_PREFIX_PATH', '/home/catscanners/Documents/find-my-kitten/ros2_ws/install:/home/catscanners/Documents/ws_sensor_combined/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'catscanners'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ISAAC_ROS_WS', '/ssd/workspaces/isaac_ros-dev'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/catscanners/.local/bin:/home/catscanners/.local/bin:/home/catscanners/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/snap/bin'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/tmp/ssh-XXXXXXjmRWpu/agent.88551'), ('AMENT_PREFIX_PATH', '/home/catscanners/Documents/find-my-kitten/ros2_ws/install/py_pubsub:/home/catscanners/Documents/ws_sensor_combined/install/px4_ros_com:/home/catscanners/Documents/ws_sensor_combined/install/px4_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/catscanners/Documents/find-my-kitten/ros2_ws/build/ros2_nodes'), ('SSH_CONNECTION', '86.50.141.222 30586 82.130.11.159 2415'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/catscanners/Documents/find-my-kitten/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:/home/catscanners/Documents/ws_sensor_combined/install/px4_ros_com/local/lib/python3.10/dist-packages:/home/catscanners/Documents/ws_sensor_combined/install/px4_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/catscanners/Documents/ws_sensor_combined/install/px4_ros_com:/home/catscanners/Documents/ws_sensor_combined/install/px4_msgs:/home/catscanners/Documents/find-my-kitten/ros2_ws/install/py_pubsub:/opt/ros/humble')]), 'shell': False}
+[2.608763] (-) TimerEvent: {}
+[2.677434] (px4_ros_com) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[2.679624] (ros2_nodes) CommandEnded: {'returncode': 0}
+[2.681285] (ros2_nodes) JobProgress: {'identifier': 'ros2_nodes', 'progress': 'install'}
+[2.700953] (py_pubsub) StdoutLine: {'line': b'running egg_info\n'}
+[2.703498] (ros2_nodes) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/catscanners/Documents/find-my-kitten/ros2_ws/build/ros2_nodes'], 'cwd': '/home/catscanners/Documents/find-my-kitten/ros2_ws/build/ros2_nodes', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('MAIL', '/var/mail/catscanners'), ('USER', 'catscanners'), ('SSH_CLIENT', '86.50.141.222 30586 2415'), ('SSH_AGENT_PID', '88552'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/catscanners/Documents/ws_sensor_combined/install/px4_ros_com/lib:/home/catscanners/Documents/ws_sensor_combined/install/px4_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/catscanners'), ('OLDPWD', '/home/catscanners/Documents/find-my-kitten/ros2_ws/src'), ('SSH_TTY', '/dev/pts/2'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'C.UTF-8'), ('COLCON_PREFIX_PATH', '/home/catscanners/Documents/find-my-kitten/ros2_ws/install:/home/catscanners/Documents/ws_sensor_combined/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'catscanners'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ISAAC_ROS_WS', '/ssd/workspaces/isaac_ros-dev'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/catscanners/.local/bin:/home/catscanners/.local/bin:/home/catscanners/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/snap/bin'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/tmp/ssh-XXXXXXjmRWpu/agent.88551'), ('AMENT_PREFIX_PATH', '/home/catscanners/Documents/find-my-kitten/ros2_ws/install/py_pubsub:/home/catscanners/Documents/ws_sensor_combined/install/px4_ros_com:/home/catscanners/Documents/ws_sensor_combined/install/px4_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/catscanners/Documents/find-my-kitten/ros2_ws/build/ros2_nodes'), ('SSH_CONNECTION', '86.50.141.222 30586 82.130.11.159 2415'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/catscanners/Documents/find-my-kitten/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:/home/catscanners/Documents/ws_sensor_combined/install/px4_ros_com/local/lib/python3.10/dist-packages:/home/catscanners/Documents/ws_sensor_combined/install/px4_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/catscanners/Documents/ws_sensor_combined/install/px4_ros_com:/home/catscanners/Documents/ws_sensor_combined/install/px4_msgs:/home/catscanners/Documents/find-my-kitten/ros2_ws/install/py_pubsub:/opt/ros/humble')]), 'shell': False}
+[2.708905] (-) TimerEvent: {}
+[2.718889] (ros2_nodes) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.719443] (ros2_nodes) StdoutLine: {'line': b'-- Installing: /home/catscanners/Documents/find-my-kitten/ros2_ws/install/ros2_nodes/share/ament_index/resource_index/package_run_dependencies/ros2_nodes\n'}
+[2.719702] (ros2_nodes) StdoutLine: {'line': b'-- Installing: /home/catscanners/Documents/find-my-kitten/ros2_ws/install/ros2_nodes/share/ament_index/resource_index/parent_prefix_path/ros2_nodes\n'}
+[2.720035] (ros2_nodes) StdoutLine: {'line': b'-- Installing: /home/catscanners/Documents/find-my-kitten/ros2_ws/install/ros2_nodes/share/ros2_nodes/environment/ament_prefix_path.sh\n'}
+[2.720952] (ros2_nodes) StdoutLine: {'line': b'-- Installing: /home/catscanners/Documents/find-my-kitten/ros2_ws/install/ros2_nodes/share/ros2_nodes/environment/ament_prefix_path.dsv\n'}
+[2.721204] (ros2_nodes) StdoutLine: {'line': b'-- Installing: /home/catscanners/Documents/find-my-kitten/ros2_ws/install/ros2_nodes/share/ros2_nodes/environment/path.sh\n'}
+[2.721756] (ros2_nodes) StdoutLine: {'line': b'-- Installing: /home/catscanners/Documents/find-my-kitten/ros2_ws/install/ros2_nodes/share/ros2_nodes/environment/path.dsv\n'}
+[2.721972] (ros2_nodes) StdoutLine: {'line': b'-- Installing: /home/catscanners/Documents/find-my-kitten/ros2_ws/install/ros2_nodes/share/ros2_nodes/local_setup.bash\n'}
+[2.722153] (ros2_nodes) StdoutLine: {'line': b'-- Installing: /home/catscanners/Documents/find-my-kitten/ros2_ws/install/ros2_nodes/share/ros2_nodes/local_setup.sh\n'}
+[2.722416] (ros2_nodes) StdoutLine: {'line': b'-- Installing: /home/catscanners/Documents/find-my-kitten/ros2_ws/install/ros2_nodes/share/ros2_nodes/local_setup.zsh\n'}
+[2.722603] (ros2_nodes) StdoutLine: {'line': b'-- Installing: /home/catscanners/Documents/find-my-kitten/ros2_ws/install/ros2_nodes/share/ros2_nodes/local_setup.dsv\n'}
+[2.722820] (ros2_nodes) StdoutLine: {'line': b'-- Installing: /home/catscanners/Documents/find-my-kitten/ros2_ws/install/ros2_nodes/share/ros2_nodes/package.dsv\n'}
+[2.723066] (ros2_nodes) StdoutLine: {'line': b'-- Installing: /home/catscanners/Documents/find-my-kitten/ros2_ws/install/ros2_nodes/share/ament_index/resource_index/packages/ros2_nodes\n'}
+[2.723300] (ros2_nodes) StdoutLine: {'line': b'-- Installing: /home/catscanners/Documents/find-my-kitten/ros2_ws/install/ros2_nodes/share/ros2_nodes/cmake/ros2_nodesConfig.cmake\n'}
+[2.723544] (ros2_nodes) StdoutLine: {'line': b'-- Installing: /home/catscanners/Documents/find-my-kitten/ros2_ws/install/ros2_nodes/share/ros2_nodes/cmake/ros2_nodesConfig-version.cmake\n'}
+[2.723782] (ros2_nodes) StdoutLine: {'line': b'-- Installing: /home/catscanners/Documents/find-my-kitten/ros2_ws/install/ros2_nodes/share/ros2_nodes/package.xml\n'}
+[2.727945] (ros2_nodes) CommandEnded: {'returncode': 0}
+[2.739552] (py_pubsub) StdoutLine: {'line': b'writing ../../build/py_pubsub/py_pubsub.egg-info/PKG-INFO\n'}
+[2.741562] (py_pubsub) StdoutLine: {'line': b'writing dependency_links to ../../build/py_pubsub/py_pubsub.egg-info/dependency_links.txt\n'}
+[2.741902] (py_pubsub) StdoutLine: {'line': b'writing entry points to ../../build/py_pubsub/py_pubsub.egg-info/entry_points.txt\n'}
+[2.742597] (py_pubsub) StdoutLine: {'line': b'writing requirements to ../../build/py_pubsub/py_pubsub.egg-info/requires.txt\n'}
+[2.743608] (py_pubsub) StdoutLine: {'line': b'writing top-level names to ../../build/py_pubsub/py_pubsub.egg-info/top_level.txt\n'}
+[2.753288] (px4_ros_com) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[2.768527] (ros2_nodes) JobEnded: {'identifier': 'ros2_nodes', 'rc': 0}
+[2.809066] (-) TimerEvent: {}
+[2.840961] (px4_ros_com) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.867191] (px4_ros_com) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[2.909239] (-) TimerEvent: {}
+[2.935712] (py_pubsub) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[2.937271] (py_pubsub) StdoutLine: {'line': b"writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'\n"}
+[2.937695] (py_pubsub) StdoutLine: {'line': b'running build\n'}
+[2.937898] (py_pubsub) StdoutLine: {'line': b'running build_py\n'}
+[2.938294] (py_pubsub) StdoutLine: {'line': b'copying py_pubsub/publisher_member_function.py -> /home/catscanners/Documents/find-my-kitten/ros2_ws/build/py_pubsub/build/lib/py_pubsub\n'}
+[2.938747] (py_pubsub) StdoutLine: {'line': b'copying py_pubsub/__init__.py -> /home/catscanners/Documents/find-my-kitten/ros2_ws/build/py_pubsub/build/lib/py_pubsub\n'}
+[2.939084] (py_pubsub) StdoutLine: {'line': b'copying py_pubsub/subscriber_member_function.py -> /home/catscanners/Documents/find-my-kitten/ros2_ws/build/py_pubsub/build/lib/py_pubsub\n'}
+[2.939788] (py_pubsub) StdoutLine: {'line': b'running install\n'}
+[2.951360] (py_pubsub) StdoutLine: {'line': b'running install_lib\n'}
+[2.991634] (py_pubsub) StdoutLine: {'line': b'running install_data\n'}
+[2.992089] (py_pubsub) StdoutLine: {'line': b'copying resource/py_pubsub -> /home/catscanners/Documents/find-my-kitten/ros2_ws/install/py_pubsub/share/ament_index/resource_index/packages\n'}
+[2.992311] (py_pubsub) StdoutLine: {'line': b'copying package.xml -> /home/catscanners/Documents/find-my-kitten/ros2_ws/install/py_pubsub/share/py_pubsub\n'}
+[2.992515] (py_pubsub) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.009367] (-) TimerEvent: {}
+[3.031928] (py_pubsub) StdoutLine: {'line': b"removing '/home/catscanners/Documents/find-my-kitten/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[3.032360] (px4_ros_com) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[3.032613] (py_pubsub) StdoutLine: {'line': b'Copying ../../build/py_pubsub/py_pubsub.egg-info to /home/catscanners/Documents/find-my-kitten/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub-0.0.0-py3.10.egg-info\n'}
+[3.032794] (px4_ros_com) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[3.034652] (py_pubsub) StdoutLine: {'line': b'running install_scripts\n'}
+[3.109515] (-) TimerEvent: {}
+[3.174125] (px4_ros_com) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[3.175848] (px4_ros_com) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[3.209710] (-) TimerEvent: {}
+[3.247892] (px4_ros_com) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[3.282341] (px4_ros_com) StdoutLine: {'line': b'-- Found rclpy: 3.3.15 (/opt/ros/humble/share/rclpy/cmake)\n'}
+[3.299140] (px4_ros_com) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[3.309878] (-) TimerEvent: {}
+[3.358913] (py_pubsub) StdoutLine: {'line': b'Installing listener script to /home/catscanners/Documents/find-my-kitten/ros2_ws/install/py_pubsub/lib/py_pubsub\n'}
+[3.359648] (py_pubsub) StdoutLine: {'line': b'Installing talker script to /home/catscanners/Documents/find-my-kitten/ros2_ws/install/py_pubsub/lib/py_pubsub\n'}
+[3.360658] (py_pubsub) StdoutLine: {'line': b"writing list of installed files to '/home/catscanners/Documents/find-my-kitten/ros2_ws/build/py_pubsub/install.log'\n"}
+[3.410067] (-) TimerEvent: {}
+[3.457972] (py_pubsub) CommandEnded: {'returncode': 0}
+[3.472858] (py_pubsub) JobEnded: {'identifier': 'py_pubsub', 'rc': 0}
+[3.510205] (-) TimerEvent: {}
+[3.542542] (px4_ros_com) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[3.553681] (px4_ros_com) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[3.554824] (px4_ros_com) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/catscanners/Documents/find-my-kitten/ros2_ws/src/px4_ros_com/include;$<BUILD_INTERFACE:/home/catscanners/Documents/find-my-kitten/ros2_ws/src/px4_ros_com/include/px4_ros_com>\n'}
+[3.555129] (px4_ros_com) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[3.565258] (px4_ros_com) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[3.565578] (px4_ros_com) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[3.567646] (px4_ros_com) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[3.571214] (px4_ros_com) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.573526] (px4_ros_com) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[3.583065] (px4_ros_com) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[3.583353] (px4_ros_com) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[3.585770] (px4_ros_com) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.590468] (px4_ros_com) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.610310] (-) TimerEvent: {}
+[3.643421] (px4_ros_com) StdoutLine: {'line': b'-- Generating done\n'}
+[3.663138] (px4_ros_com) StdoutLine: {'line': b'-- Build files have been written to: /home/catscanners/Documents/find-my-kitten/ros2_ws/build/px4_ros_com\n'}
+[3.691616] (px4_ros_com) CommandEnded: {'returncode': 0}
+[3.693838] (px4_ros_com) JobProgress: {'identifier': 'px4_ros_com', 'progress': 'build'}
+[3.701794] (px4_ros_com) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/catscanners/Documents/find-my-kitten/ros2_ws/build/px4_ros_com', '--', '-j6', '-l6'], 'cwd': '/home/catscanners/Documents/find-my-kitten/ros2_ws/build/px4_ros_com', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('MAIL', '/var/mail/catscanners'), ('USER', 'catscanners'), ('SSH_CLIENT', '86.50.141.222 30586 2415'), ('SSH_AGENT_PID', '88552'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/catscanners/Documents/ws_sensor_combined/install/px4_ros_com/lib:/home/catscanners/Documents/ws_sensor_combined/install/px4_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/catscanners'), ('OLDPWD', '/home/catscanners/Documents/find-my-kitten/ros2_ws/src'), ('SSH_TTY', '/dev/pts/2'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'C.UTF-8'), ('COLCON_PREFIX_PATH', '/home/catscanners/Documents/find-my-kitten/ros2_ws/install:/home/catscanners/Documents/ws_sensor_combined/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'catscanners'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ISAAC_ROS_WS', '/ssd/workspaces/isaac_ros-dev'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/catscanners/.local/bin:/home/catscanners/.local/bin:/home/catscanners/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/snap/bin'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/tmp/ssh-XXXXXXjmRWpu/agent.88551'), ('AMENT_PREFIX_PATH', '/home/catscanners/Documents/find-my-kitten/ros2_ws/install/py_pubsub:/home/catscanners/Documents/ws_sensor_combined/install/px4_ros_com:/home/catscanners/Documents/ws_sensor_combined/install/px4_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/catscanners/Documents/find-my-kitten/ros2_ws/build/px4_ros_com'), ('SSH_CONNECTION', '86.50.141.222 30586 82.130.11.159 2415'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/catscanners/Documents/find-my-kitten/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:/home/catscanners/Documents/ws_sensor_combined/install/px4_ros_com/local/lib/python3.10/dist-packages:/home/catscanners/Documents/ws_sensor_combined/install/px4_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/catscanners/Documents/ws_sensor_combined/install/px4_ros_com:/home/catscanners/Documents/ws_sensor_combined/install/px4_msgs:/home/catscanners/Documents/find-my-kitten/ros2_ws/install/py_pubsub:/opt/ros/humble')]), 'shell': False}
+[3.710488] (-) TimerEvent: {}
+[3.804591] (px4_ros_com) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding CXX object CMakeFiles/vehicle_gps_position_listener.dir/src/examples/listeners/vehicle_gps_position_listener.cpp.o\x1b[0m\n'}
+[3.805522] (px4_ros_com) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/sensor_combined_listener.dir/src/examples/listeners/sensor_combined_listener.cpp.o\x1b[0m\n'}
+[3.805752] (px4_ros_com) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/offboard_control.dir/src/examples/offboard/offboard_control.cpp.o\x1b[0m\n'}
+[3.810656] (-) TimerEvent: {}
+[3.812081] (px4_ros_com) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/frame_transforms.dir/src/lib/frame_transforms.cpp.o\x1b[0m\n'}
+[3.827182] (px4_ros_com) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/offboard_control_srv.dir/src/examples/offboard/offboard_control_srv.cpp.o\x1b[0m\n'}
+[3.827677] (px4_ros_com) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/debug_vect_advertiser.dir/src/examples/advertisers/debug_vect_advertiser.cpp.o\x1b[0m\n'}
+[3.910849] (-) TimerEvent: {}
+[4.011530] (-) TimerEvent: {}
+[4.112199] (-) TimerEvent: {}
+[4.222415] (-) TimerEvent: {}
+[4.323262] (-) TimerEvent: {}
+[4.423947] (-) TimerEvent: {}
+[4.525070] (-) TimerEvent: {}
+[4.626711] (-) TimerEvent: {}
+[4.729482] (-) TimerEvent: {}
+[4.832385] (-) TimerEvent: {}
+[4.935062] (-) TimerEvent: {}
+[5.037697] (-) TimerEvent: {}
+[5.140378] (-) TimerEvent: {}
+[5.242928] (-) TimerEvent: {}
+[5.343940] (-) TimerEvent: {}
+[5.444973] (-) TimerEvent: {}
+[5.547428] (-) TimerEvent: {}
+[5.649308] (-) TimerEvent: {}
+[5.750067] (-) TimerEvent: {}
+[5.792068] (px4_ros_com) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:214\x1b[m\x1b[K,\n'}
+[5.792670] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Dense:1\x1b[m\x1b[K,\n'}
+[5.792911] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Eigen:1\x1b[m\x1b[K,\n'}
+[5.793072] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/catscanners/Documents/find-my-kitten/ros2_ws/src/px4_ros_com/include/px4_ros_com/frame_transforms.h:45\x1b[m\x1b[K,\n'}
+[5.793258] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/catscanners/Documents/find-my-kitten/ros2_ws/src/px4_ros_com/src/lib/frame_transforms.cpp:41\x1b[m\x1b[K:\n'}
+[5.793418] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[KPacket Eigen::internal::pload(const typename Eigen::internal::unpacket_traits<T>::type*) [with Packet = Eigen::internal::eigen_packet_wrapper<int, 2>; typename Eigen::internal::unpacket_traits<T>::type = signed char]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.793559] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:1671:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvoid* memcpy(void*, const void*, size_t)\x1b[m\x1b[K\xe2\x80\x99 copying an object of non-trivial type \xe2\x80\x98\x1b[01m\x1b[KEigen::internal::Packet4c\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>\x1b[m\x1b[K\xe2\x80\x99} from an array of \xe2\x80\x98\x1b[01m\x1b[Kconst int8_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst signed char\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wclass-memaccess\x07-Wclass-memaccess\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.793697] (px4_ros_com) StderrLine: {'line': b' 1671 |   \x1b[01;35m\x1b[Kmemcpy(&res, from, sizeof(Packet4c))\x1b[m\x1b[K;\n'}
+[5.793816] (px4_ros_com) StderrLine: {'line': b'      |   \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.794176] (px4_ros_com) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:172\x1b[m\x1b[K,\n'}
+[5.794352] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Dense:1\x1b[m\x1b[K,\n'}
+[5.794478] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Eigen:1\x1b[m\x1b[K,\n'}
+[5.794597] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/catscanners/Documents/find-my-kitten/ros2_ws/src/px4_ros_com/include/px4_ros_com/frame_transforms.h:45\x1b[m\x1b[K,\n'}
+[5.794714] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/catscanners/Documents/find-my-kitten/ros2_ws/src/px4_ros_com/src/lib/frame_transforms.cpp:41\x1b[m\x1b[K:\n'}
+[5.794830] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/GenericPacketMath.h:159:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::internal::Packet4c\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>\x1b[m\x1b[K\xe2\x80\x99} declared here\n'}
+[5.794954] (px4_ros_com) StderrLine: {'line': b'  159 | struct \x1b[01;36m\x1b[Keigen_packet_wrapper\x1b[m\x1b[K\n'}
+[5.795096] (px4_ros_com) StderrLine: {'line': b'      |        \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.799829] (px4_ros_com) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:214\x1b[m\x1b[K,\n'}
+[5.800354] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Dense:1\x1b[m\x1b[K,\n'}
+[5.800544] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Eigen:1\x1b[m\x1b[K,\n'}
+[5.800681] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/catscanners/Documents/find-my-kitten/ros2_ws/src/px4_ros_com/include/px4_ros_com/frame_transforms.h:45\x1b[m\x1b[K,\n'}
+[5.800840] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/catscanners/Documents/find-my-kitten/ros2_ws/src/px4_ros_com/src/lib/frame_transforms.cpp:41\x1b[m\x1b[K:\n'}
+[5.800970] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[KPacket Eigen::internal::ploadu(const typename Eigen::internal::unpacket_traits<T>::type*) [with Packet = Eigen::internal::eigen_packet_wrapper<int, 2>; typename Eigen::internal::unpacket_traits<T>::type = signed char]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.801143] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:1716:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvoid* memcpy(void*, const void*, size_t)\x1b[m\x1b[K\xe2\x80\x99 copying an object of non-trivial type \xe2\x80\x98\x1b[01m\x1b[KEigen::internal::Packet4c\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>\x1b[m\x1b[K\xe2\x80\x99} from an array of \xe2\x80\x98\x1b[01m\x1b[Kconst int8_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst signed char\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wclass-memaccess\x07-Wclass-memaccess\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.801275] (px4_ros_com) StderrLine: {'line': b' 1716 |   \x1b[01;35m\x1b[Kmemcpy(&res, from, sizeof(Packet4c))\x1b[m\x1b[K;\n'}
+[5.801390] (px4_ros_com) StderrLine: {'line': b'      |   \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.801498] (px4_ros_com) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:172\x1b[m\x1b[K,\n'}
+[5.801605] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Dense:1\x1b[m\x1b[K,\n'}
+[5.801714] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Eigen:1\x1b[m\x1b[K,\n'}
+[5.801852] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/catscanners/Documents/find-my-kitten/ros2_ws/src/px4_ros_com/include/px4_ros_com/frame_transforms.h:45\x1b[m\x1b[K,\n'}
+[5.801996] (px4_ros_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/catscanners/Documents/find-my-kitten/ros2_ws/src/px4_ros_com/src/lib/frame_transforms.cpp:41\x1b[m\x1b[K:\n'}
+[5.802113] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/GenericPacketMath.h:159:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::internal::Packet4c\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>\x1b[m\x1b[K\xe2\x80\x99} declared here\n'}
+[5.802231] (px4_ros_com) StderrLine: {'line': b'  159 | struct \x1b[01;36m\x1b[Keigen_packet_wrapper\x1b[m\x1b[K\n'}
+[5.802338] (px4_ros_com) StderrLine: {'line': b'      |        \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.850257] (-) TimerEvent: {}
+[5.951046] (-) TimerEvent: {}
+[6.051853] (-) TimerEvent: {}
+[6.152667] (-) TimerEvent: {}
+[6.253509] (-) TimerEvent: {}
+[6.354313] (-) TimerEvent: {}
+[6.455080] (-) TimerEvent: {}
+[6.555851] (-) TimerEvent: {}
+[6.656628] (-) TimerEvent: {}
+[6.757495] (-) TimerEvent: {}
+[6.858199] (-) TimerEvent: {}
+[6.958894] (-) TimerEvent: {}
+[7.059638] (-) TimerEvent: {}
+[7.160379] (-) TimerEvent: {}
+[7.261119] (-) TimerEvent: {}
+[7.361934] (-) TimerEvent: {}
+[7.462856] (-) TimerEvent: {}
+[7.563579] (-) TimerEvent: {}
+[7.664311] (-) TimerEvent: {}
+[7.765084] (-) TimerEvent: {}
+[7.866088] (-) TimerEvent: {}
+[7.967249] (-) TimerEvent: {}
+[8.068405] (-) TimerEvent: {}
+[8.169465] (-) TimerEvent: {}
+[8.270455] (-) TimerEvent: {}
+[8.371777] (-) TimerEvent: {}
+[8.473059] (-) TimerEvent: {}
+[8.574061] (-) TimerEvent: {}
+[8.675068] (-) TimerEvent: {}
+[8.776033] (-) TimerEvent: {}
+[8.877120] (-) TimerEvent: {}
+[8.978143] (-) TimerEvent: {}
+[9.079244] (-) TimerEvent: {}
+[9.180321] (-) TimerEvent: {}
+[9.281412] (-) TimerEvent: {}
+[9.382494] (-) TimerEvent: {}
+[9.483587] (-) TimerEvent: {}
+[9.584816] (-) TimerEvent: {}
+[9.686052] (-) TimerEvent: {}
+[9.789379] (-) TimerEvent: {}
+[9.890582] (-) TimerEvent: {}
+[9.992099] (-) TimerEvent: {}
+[10.093195] (-) TimerEvent: {}
+[10.194674] (-) TimerEvent: {}
+[10.295766] (-) TimerEvent: {}
+[10.397659] (-) TimerEvent: {}
+[10.498821] (-) TimerEvent: {}
+[10.600235] (-) TimerEvent: {}
+[10.701437] (-) TimerEvent: {}
+[10.806883] (-) TimerEvent: {}
+[10.908004] (-) TimerEvent: {}
+[11.009074] (-) TimerEvent: {}
+[11.110109] (-) TimerEvent: {}
+[11.211158] (-) TimerEvent: {}
+[11.312141] (-) TimerEvent: {}
+[11.413324] (-) TimerEvent: {}
+[11.514454] (-) TimerEvent: {}
+[11.615561] (-) TimerEvent: {}
+[11.716587] (-) TimerEvent: {}
+[11.818228] (-) TimerEvent: {}
+[11.919320] (-) TimerEvent: {}
+[12.020408] (-) TimerEvent: {}
+[12.121394] (-) TimerEvent: {}
+[12.222368] (-) TimerEvent: {}
+[12.339151] (-) TimerEvent: {}
+[12.440289] (-) TimerEvent: {}
+[12.548603] (-) TimerEvent: {}
+[12.649395] (-) TimerEvent: {}
+[12.750138] (-) TimerEvent: {}
+[12.850870] (-) TimerEvent: {}
+[12.951601] (-) TimerEvent: {}
+[13.053537] (-) TimerEvent: {}
+[13.154364] (-) TimerEvent: {}
+[13.255473] (-) TimerEvent: {}
+[13.356220] (-) TimerEvent: {}
+[13.456947] (-) TimerEvent: {}
+[13.557658] (-) TimerEvent: {}
+[13.658365] (-) TimerEvent: {}
+[13.759394] (-) TimerEvent: {}
+[13.860461] (-) TimerEvent: {}
+[13.961530] (-) TimerEvent: {}
+[14.062703] (-) TimerEvent: {}
+[14.163830] (-) TimerEvent: {}
+[14.264866] (-) TimerEvent: {}
+[14.365817] (-) TimerEvent: {}
+[14.466942] (-) TimerEvent: {}
+[14.568015] (-) TimerEvent: {}
+[14.669065] (-) TimerEvent: {}
+[14.770121] (-) TimerEvent: {}
+[14.871104] (-) TimerEvent: {}
+[14.972039] (-) TimerEvent: {}
+[15.076995] (-) TimerEvent: {}
+[15.178045] (-) TimerEvent: {}
+[15.279104] (-) TimerEvent: {}
+[15.380802] (-) TimerEvent: {}
+[15.481797] (-) TimerEvent: {}
+[15.582788] (-) TimerEvent: {}
+[15.683894] (-) TimerEvent: {}
+[15.784933] (-) TimerEvent: {}
+[15.885940] (-) TimerEvent: {}
+[15.987055] (-) TimerEvent: {}
+[16.088103] (-) TimerEvent: {}
+[16.189490] (-) TimerEvent: {}
+[16.291335] (-) TimerEvent: {}
+[16.392706] (-) TimerEvent: {}
+[16.495239] (-) TimerEvent: {}
+[16.596630] (-) TimerEvent: {}
+[16.698127] (-) TimerEvent: {}
+[16.800726] (-) TimerEvent: {}
+[16.903316] (-) TimerEvent: {}
+[17.005964] (-) TimerEvent: {}
+[17.108705] (-) TimerEvent: {}
+[17.211465] (-) TimerEvent: {}
+[17.312834] (-) TimerEvent: {}
+[17.413797] (-) TimerEvent: {}
+[17.514798] (-) TimerEvent: {}
+[17.615744] (-) TimerEvent: {}
+[17.716919] (-) TimerEvent: {}
+[17.818007] (-) TimerEvent: {}
+[17.852660] (px4_ros_com) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking CXX executable debug_vect_advertiser\x1b[0m\n'}
+[17.918219] (-) TimerEvent: {}
+[18.019303] (-) TimerEvent: {}
+[18.120381] (-) TimerEvent: {}
+[18.221462] (-) TimerEvent: {}
+[18.322630] (-) TimerEvent: {}
+[18.423843] (-) TimerEvent: {}
+[18.509168] (px4_ros_com) StdoutLine: {'line': b'[ 58%] Built target debug_vect_advertiser\n'}
+[18.524047] (-) TimerEvent: {}
+[18.602485] (px4_ros_com) StdoutLine: {'line': b'[ 58%] Built target ament_cmake_python_copy_px4_ros_com\n'}
+[18.624257] (-) TimerEvent: {}
+[18.725615] (-) TimerEvent: {}
+[18.826864] (-) TimerEvent: {}
+[18.928375] (-) TimerEvent: {}
+[19.032170] (-) TimerEvent: {}
+[19.134318] (-) TimerEvent: {}
+[19.236603] (-) TimerEvent: {}
+[19.298770] (px4_ros_com) StdoutLine: {'line': b'running egg_info\n'}
+[19.302533] (px4_ros_com) StdoutLine: {'line': b'creating px4_ros_com.egg-info\n'}
+[19.336809] (-) TimerEvent: {}
+[19.353229] (px4_ros_com) StdoutLine: {'line': b'writing px4_ros_com.egg-info/PKG-INFO\n'}
+[19.355424] (px4_ros_com) StdoutLine: {'line': b'writing dependency_links to px4_ros_com.egg-info/dependency_links.txt\n'}
+[19.355950] (px4_ros_com) StdoutLine: {'line': b'writing top-level names to px4_ros_com.egg-info/top_level.txt\n'}
+[19.356121] (px4_ros_com) StdoutLine: {'line': b"writing manifest file 'px4_ros_com.egg-info/SOURCES.txt'\n"}
+[19.437963] (-) TimerEvent: {}
+[19.539241] (-) TimerEvent: {}
+[19.641144] (-) TimerEvent: {}
+[19.743527] (-) TimerEvent: {}
+[19.844577] (-) TimerEvent: {}
+[19.945958] (-) TimerEvent: {}
+[20.048329] (-) TimerEvent: {}
+[20.074099] (px4_ros_com) StdoutLine: {'line': b"reading manifest file 'px4_ros_com.egg-info/SOURCES.txt'\n"}
+[20.075702] (px4_ros_com) StdoutLine: {'line': b"writing manifest file 'px4_ros_com.egg-info/SOURCES.txt'\n"}
+[20.148519] (-) TimerEvent: {}
+[20.196060] (px4_ros_com) StdoutLine: {'line': b'[ 58%] Built target ament_cmake_python_build_px4_ros_com_egg\n'}
+[20.248725] (-) TimerEvent: {}
+[20.349872] (-) TimerEvent: {}
+[20.451314] (-) TimerEvent: {}
+[20.552459] (-) TimerEvent: {}
+[20.653428] (-) TimerEvent: {}
+[20.754593] (-) TimerEvent: {}
+[20.855622] (-) TimerEvent: {}
+[20.956582] (-) TimerEvent: {}
+[21.057632] (-) TimerEvent: {}
+[21.158743] (-) TimerEvent: {}
+[21.195192] (px4_ros_com) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX executable offboard_control\x1b[0m\n'}
+[21.258941] (-) TimerEvent: {}
+[21.360380] (-) TimerEvent: {}
+[21.461486] (-) TimerEvent: {}
+[21.562881] (-) TimerEvent: {}
+[21.663919] (-) TimerEvent: {}
+[21.764908] (-) TimerEvent: {}
+[21.814286] (px4_ros_com) StdoutLine: {'line': b'[ 66%] Built target offboard_control\n'}
+[21.865096] (-) TimerEvent: {}
+[21.966042] (-) TimerEvent: {}
+[22.067239] (-) TimerEvent: {}
+[22.168292] (-) TimerEvent: {}
+[22.269595] (-) TimerEvent: {}
+[22.370986] (-) TimerEvent: {}
+[22.471628] (-) TimerEvent: {}
+[22.572289] (-) TimerEvent: {}
+[22.673388] (-) TimerEvent: {}
+[22.774418] (-) TimerEvent: {}
+[22.875088] (-) TimerEvent: {}
+[22.949312] (px4_ros_com) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable offboard_control_srv\x1b[0m\n'}
+[22.975270] (-) TimerEvent: {}
+[23.076210] (-) TimerEvent: {}
+[23.177817] (-) TimerEvent: {}
+[23.278582] (-) TimerEvent: {}
+[23.379577] (-) TimerEvent: {}
+[23.480906] (-) TimerEvent: {}
+[23.582226] (-) TimerEvent: {}
+[23.683180] (-) TimerEvent: {}
+[23.693018] (px4_ros_com) StdoutLine: {'line': b'[ 75%] Built target offboard_control_srv\n'}
+[23.783382] (-) TimerEvent: {}
+[23.884083] (-) TimerEvent: {}
+[23.984769] (-) TimerEvent: {}
+[24.037918] (px4_ros_com) StdoutLine: {'line': b'[ 83%] \x1b[32m\x1b[1mLinking CXX shared library libframe_transforms.so\x1b[0m\n'}
+[24.085104] (-) TimerEvent: {}
+[24.185836] (-) TimerEvent: {}
+[24.286555] (-) TimerEvent: {}
+[24.387238] (-) TimerEvent: {}
+[24.487901] (-) TimerEvent: {}
+[24.588572] (-) TimerEvent: {}
+[24.673773] (px4_ros_com) StdoutLine: {'line': b'[ 83%] Built target frame_transforms\n'}
+[24.688741] (-) TimerEvent: {}
+[24.789420] (-) TimerEvent: {}
+[24.890069] (-) TimerEvent: {}
+[24.990739] (-) TimerEvent: {}
+[25.091400] (-) TimerEvent: {}
+[25.192084] (-) TimerEvent: {}
+[25.292725] (-) TimerEvent: {}
+[25.393412] (-) TimerEvent: {}
+[25.494059] (-) TimerEvent: {}
+[25.594728] (-) TimerEvent: {}
+[25.695429] (-) TimerEvent: {}
+[25.796092] (-) TimerEvent: {}
+[25.896756] (-) TimerEvent: {}
+[25.997458] (-) TimerEvent: {}
+[26.098135] (-) TimerEvent: {}
+[26.198810] (-) TimerEvent: {}
+[26.299487] (-) TimerEvent: {}
+[26.400184] (-) TimerEvent: {}
+[26.500876] (-) TimerEvent: {}
+[26.601568] (-) TimerEvent: {}
+[26.702270] (-) TimerEvent: {}
+[26.802970] (-) TimerEvent: {}
+[26.878354] (px4_ros_com) StdoutLine: {'line': b'[ 91%] \x1b[32m\x1b[1mLinking CXX executable vehicle_gps_position_listener\x1b[0m\n'}
+[26.903141] (-) TimerEvent: {}
+[27.003796] (-) TimerEvent: {}
+[27.026547] (px4_ros_com) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable sensor_combined_listener\x1b[0m\n'}
+[27.104005] (-) TimerEvent: {}
+[27.204814] (-) TimerEvent: {}
+[27.305656] (-) TimerEvent: {}
+[27.406455] (-) TimerEvent: {}
+[27.507178] (-) TimerEvent: {}
+[27.607897] (-) TimerEvent: {}
+[27.708559] (-) TimerEvent: {}
+[27.809224] (-) TimerEvent: {}
+[27.909909] (-) TimerEvent: {}
+[27.997793] (px4_ros_com) StdoutLine: {'line': b'[100%] Built target sensor_combined_listener\n'}
+[27.998375] (px4_ros_com) StdoutLine: {'line': b'[100%] Built target vehicle_gps_position_listener\n'}
+[28.010066] (-) TimerEvent: {}
+[28.024993] (px4_ros_com) CommandEnded: {'returncode': 0}
+[28.027415] (px4_ros_com) JobProgress: {'identifier': 'px4_ros_com', 'progress': 'install'}
+[28.028975] (px4_ros_com) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/catscanners/Documents/find-my-kitten/ros2_ws/build/px4_ros_com'], 'cwd': '/home/catscanners/Documents/find-my-kitten/ros2_ws/build/px4_ros_com', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('MAIL', '/var/mail/catscanners'), ('USER', 'catscanners'), ('SSH_CLIENT', '86.50.141.222 30586 2415'), ('SSH_AGENT_PID', '88552'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/catscanners/Documents/ws_sensor_combined/install/px4_ros_com/lib:/home/catscanners/Documents/ws_sensor_combined/install/px4_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/catscanners'), ('OLDPWD', '/home/catscanners/Documents/find-my-kitten/ros2_ws/src'), ('SSH_TTY', '/dev/pts/2'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'C.UTF-8'), ('COLCON_PREFIX_PATH', '/home/catscanners/Documents/find-my-kitten/ros2_ws/install:/home/catscanners/Documents/ws_sensor_combined/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'catscanners'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ISAAC_ROS_WS', '/ssd/workspaces/isaac_ros-dev'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/catscanners/.local/bin:/home/catscanners/.local/bin:/home/catscanners/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/snap/bin'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/tmp/ssh-XXXXXXjmRWpu/agent.88551'), ('AMENT_PREFIX_PATH', '/home/catscanners/Documents/find-my-kitten/ros2_ws/install/py_pubsub:/home/catscanners/Documents/ws_sensor_combined/install/px4_ros_com:/home/catscanners/Documents/ws_sensor_combined/install/px4_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/catscanners/Documents/find-my-kitten/ros2_ws/build/px4_ros_com'), ('SSH_CONNECTION', '86.50.141.222 30586 82.130.11.159 2415'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/catscanners/Documents/find-my-kitten/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:/home/catscanners/Documents/ws_sensor_combined/install/px4_ros_com/local/lib/python3.10/dist-packages:/home/catscanners/Documents/ws_sensor_combined/install/px4_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/catscanners/Documents/ws_sensor_combined/install/px4_ros_com:/home/catscanners/Documents/ws_sensor_combined/install/px4_msgs:/home/catscanners/Documents/find-my-kitten/ros2_ws/install/py_pubsub:/opt/ros/humble')]), 'shell': False}
+[28.047814] (px4_ros_com) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[28.048875] (px4_ros_com) StdoutLine: {'line': b'-- Installing: /home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_ros_com/lib/px4_ros_com/sensor_combined_listener\n'}
+[28.057359] (px4_ros_com) StdoutLine: {'line': b'-- Set runtime path of "/home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_ros_com/lib/px4_ros_com/sensor_combined_listener" to ""\n'}
+[28.057870] (px4_ros_com) StdoutLine: {'line': b'-- Installing: /home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_ros_com/lib/px4_ros_com/vehicle_gps_position_listener\n'}
+[28.066217] (px4_ros_com) StdoutLine: {'line': b'-- Set runtime path of "/home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_ros_com/lib/px4_ros_com/vehicle_gps_position_listener" to ""\n'}
+[28.066735] (px4_ros_com) StdoutLine: {'line': b'-- Installing: /home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_ros_com/lib/px4_ros_com/debug_vect_advertiser\n'}
+[28.069244] (px4_ros_com) StdoutLine: {'line': b'-- Set runtime path of "/home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_ros_com/lib/px4_ros_com/debug_vect_advertiser" to ""\n'}
+[28.069698] (px4_ros_com) StdoutLine: {'line': b'-- Installing: /home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_ros_com/lib/px4_ros_com/offboard_control\n'}
+[28.072630] (px4_ros_com) StdoutLine: {'line': b'-- Set runtime path of "/home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_ros_com/lib/px4_ros_com/offboard_control" to ""\n'}
+[28.073042] (px4_ros_com) StdoutLine: {'line': b'-- Installing: /home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_ros_com/lib/px4_ros_com/offboard_control_srv\n'}
+[28.077492] (px4_ros_com) StdoutLine: {'line': b'-- Set runtime path of "/home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_ros_com/lib/px4_ros_com/offboard_control_srv" to ""\n'}
+[28.077979] (px4_ros_com) StdoutLine: {'line': b'-- Installing: /home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_ros_com/share/px4_ros_com/environment/library_path.sh\n'}
+[28.078191] (px4_ros_com) StdoutLine: {'line': b'-- Installing: /home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_ros_com/share/px4_ros_com/environment/library_path.dsv\n'}
+[28.078373] (px4_ros_com) StdoutLine: {'line': b'-- Installing: /home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_ros_com/include/px4_ros_com\n'}
+[28.078514] (px4_ros_com) StdoutLine: {'line': b'-- Installing: /home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_ros_com/include/px4_ros_com/frame_transforms.h\n'}
+[28.078678] (px4_ros_com) StdoutLine: {'line': b'-- Installing: /home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_ros_com/lib/libframe_transforms.so\n'}
+[28.087364] (px4_ros_com) StdoutLine: {'line': b'-- Set runtime path of "/home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_ros_com/lib/libframe_transforms.so" to ""\n'}
+[28.087767] (px4_ros_com) StdoutLine: {'line': b'-- Installing: /home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_ros_com/share/px4_ros_com//launch\n'}
+[28.087970] (px4_ros_com) StdoutLine: {'line': b'-- Installing: /home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_ros_com/share/px4_ros_com//launch/sensor_combined_listener.launch.py\n'}
+[28.088208] (px4_ros_com) StdoutLine: {'line': b'-- Installing: /home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_ros_com/share/px4_ros_com//launch/offboard_control_launch.yaml\n'}
+[28.088497] (px4_ros_com) StdoutLine: {'line': b'-- Installing: /home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_ros_com/share/px4_ros_com//test\n'}
+[28.088768] (px4_ros_com) StdoutLine: {'line': b'-- Installing: /home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_ros_com/share/px4_ros_com//test/test_input.py\n'}
+[28.088990] (px4_ros_com) StdoutLine: {'line': b'-- Installing: /home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_ros_com/share/px4_ros_com//test/pipeline_io_test.py\n'}
+[28.089170] (px4_ros_com) StdoutLine: {'line': b'-- Installing: /home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_ros_com/share/px4_ros_com//test/test_output.py\n'}
+[28.089378] (px4_ros_com) StdoutLine: {'line': b'-- Installing: /home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_ros_com/share/px4_ros_com//test/__init__.py\n'}
+[28.089596] (px4_ros_com) StdoutLine: {'line': b'-- Installing: /home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_ros_com/share/px4_ros_com/environment/pythonpath.sh\n'}
+[28.089738] (px4_ros_com) StdoutLine: {'line': b'-- Installing: /home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_ros_com/share/px4_ros_com/environment/pythonpath.dsv\n'}
+[28.089936] (px4_ros_com) StdoutLine: {'line': b'-- Installing: /home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com-0.1.0-py3.10.egg-info\n'}
+[28.090105] (px4_ros_com) StdoutLine: {'line': b'-- Installing: /home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com-0.1.0-py3.10.egg-info/dependency_links.txt\n'}
+[28.090267] (px4_ros_com) StdoutLine: {'line': b'-- Installing: /home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com-0.1.0-py3.10.egg-info/PKG-INFO\n'}
+[28.090432] (px4_ros_com) StdoutLine: {'line': b'-- Installing: /home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com-0.1.0-py3.10.egg-info/SOURCES.txt\n'}
+[28.090602] (px4_ros_com) StdoutLine: {'line': b'-- Installing: /home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com-0.1.0-py3.10.egg-info/top_level.txt\n'}
+[28.090846] (px4_ros_com) StdoutLine: {'line': b'-- Installing: /home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com\n'}
+[28.091015] (px4_ros_com) StdoutLine: {'line': b'-- Installing: /home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com/__init__.py\n'}
+[28.091194] (px4_ros_com) StdoutLine: {'line': b'-- Installing: /home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com/module_to_import.py\n'}
+[28.110189] (-) TimerEvent: {}
+[28.168939] (px4_ros_com) StdoutLine: {'line': b"Listing '/home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com'...\n"}
+[28.169427] (px4_ros_com) StdoutLine: {'line': b"Compiling '/home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com/__init__.py'...\n"}
+[28.169644] (px4_ros_com) StdoutLine: {'line': b"Compiling '/home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com/module_to_import.py'...\n"}
+[28.181007] (px4_ros_com) StdoutLine: {'line': b'-- Installing: /home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_ros_com/lib/px4_ros_com/offboard_control.py\n'}
+[28.181768] (px4_ros_com) StdoutLine: {'line': b'-- Installing: /home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_ros_com/share/ament_index/resource_index/package_run_dependencies/px4_ros_com\n'}
+[28.182112] (px4_ros_com) StdoutLine: {'line': b'-- Installing: /home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_ros_com/share/ament_index/resource_index/parent_prefix_path/px4_ros_com\n'}
+[28.182469] (px4_ros_com) StdoutLine: {'line': b'-- Installing: /home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_ros_com/share/px4_ros_com/environment/ament_prefix_path.sh\n'}
+[28.182978] (px4_ros_com) StdoutLine: {'line': b'-- Installing: /home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_ros_com/share/px4_ros_com/environment/ament_prefix_path.dsv\n'}
+[28.183303] (px4_ros_com) StdoutLine: {'line': b'-- Installing: /home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_ros_com/share/px4_ros_com/environment/path.sh\n'}
+[28.183597] (px4_ros_com) StdoutLine: {'line': b'-- Installing: /home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_ros_com/share/px4_ros_com/environment/path.dsv\n'}
+[28.183899] (px4_ros_com) StdoutLine: {'line': b'-- Installing: /home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_ros_com/share/px4_ros_com/local_setup.bash\n'}
+[28.184192] (px4_ros_com) StdoutLine: {'line': b'-- Installing: /home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_ros_com/share/px4_ros_com/local_setup.sh\n'}
+[28.184498] (px4_ros_com) StdoutLine: {'line': b'-- Installing: /home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_ros_com/share/px4_ros_com/local_setup.zsh\n'}
+[28.184817] (px4_ros_com) StdoutLine: {'line': b'-- Installing: /home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_ros_com/share/px4_ros_com/local_setup.dsv\n'}
+[28.185123] (px4_ros_com) StdoutLine: {'line': b'-- Installing: /home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_ros_com/share/px4_ros_com/package.dsv\n'}
+[28.185626] (px4_ros_com) StdoutLine: {'line': b'-- Installing: /home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_ros_com/share/ament_index/resource_index/packages/px4_ros_com\n'}
+[28.186125] (px4_ros_com) StdoutLine: {'line': b'-- Installing: /home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_ros_com/share/px4_ros_com/cmake/export_frame_transformsExport.cmake\n'}
+[28.186833] (px4_ros_com) StdoutLine: {'line': b'-- Installing: /home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_ros_com/share/px4_ros_com/cmake/export_frame_transformsExport-noconfig.cmake\n'}
+[28.187309] (px4_ros_com) StdoutLine: {'line': b'-- Installing: /home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_ros_com/share/px4_ros_com/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[28.187647] (px4_ros_com) StdoutLine: {'line': b'-- Installing: /home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_ros_com/share/px4_ros_com/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[28.187960] (px4_ros_com) StdoutLine: {'line': b'-- Installing: /home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_ros_com/share/px4_ros_com/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[28.188272] (px4_ros_com) StdoutLine: {'line': b'-- Installing: /home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_ros_com/share/px4_ros_com/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[28.188603] (px4_ros_com) StdoutLine: {'line': b'-- Installing: /home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_ros_com/share/px4_ros_com/cmake/px4_ros_comConfig.cmake\n'}
+[28.188880] (px4_ros_com) StdoutLine: {'line': b'-- Installing: /home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_ros_com/share/px4_ros_com/cmake/px4_ros_comConfig-version.cmake\n'}
+[28.189178] (px4_ros_com) StdoutLine: {'line': b'-- Installing: /home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_ros_com/share/px4_ros_com/package.xml\n'}
+[28.195163] (px4_ros_com) CommandEnded: {'returncode': 0}
+[28.210443] (-) TimerEvent: {}
+[28.256363] (px4_ros_com) JobEnded: {'identifier': 'px4_ros_com', 'rc': 0}
+[28.259467] (-) EventReactorShutdown: {}
