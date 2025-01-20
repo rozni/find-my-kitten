@@ -1,0 +1,24 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_ros_com/include/**",
+        "/home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_msgs/include/**",
+        "/opt/ros/humble/include/**",
+        "/home/catscanners/Documents/find-my-kitten/ros2_ws/src/offboard_takeoff_example/include/**",
+        "/home/catscanners/Documents/find-my-kitten/ros2_ws/src/px4_ros_com/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-arm64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

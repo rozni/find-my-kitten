@@ -1,0 +1,23 @@
+[0.022s] Invoking command in '/home/catscanners/Documents/find-my-kitten/ros2_ws/build/offboard_takeoff_example': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/catscanners/Documents/find-my-kitten/ros2_ws/install/py_pubsub:/opt/ros/humble /usr/bin/cmake --build /home/catscanners/Documents/find-my-kitten/ros2_ws/build/offboard_takeoff_example -- -j6 -l6
+[0.075s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.411s] [31mCMake Error at CMakeLists.txt:10 (find_package):
+[0.411s]   By not providing "Findmavros_msgs.cmake" in CMAKE_MODULE_PATH this project
+[0.412s]   has asked CMake to find a package configuration file provided by
+[0.412s]   "mavros_msgs", but CMake did not find one.
+[0.412s] 
+[0.412s]   Could not find a package configuration file provided by "mavros_msgs" with
+[0.413s]   any of the following names:
+[0.413s] 
+[0.413s]     mavros_msgsConfig.cmake
+[0.413s]     mavros_msgs-config.cmake
+[0.413s] 
+[0.413s]   Add the installation prefix of "mavros_msgs" to CMAKE_PREFIX_PATH or set
+[0.414s]   "mavros_msgs_DIR" to a directory containing one of the above files.  If
+[0.414s]   "mavros_msgs" provides a separate development package or SDK, be sure it
+[0.414s]   has been installed.
+[0.414s] 
+[0.414s] [0m
+[0.415s] -- Configuring incomplete, errors occurred!
+[0.415s] See also "/home/catscanners/Documents/find-my-kitten/ros2_ws/build/offboard_takeoff_example/CMakeFiles/CMakeOutput.log".
+[0.418s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
+[0.424s] Invoked command in '/home/catscanners/Documents/find-my-kitten/ros2_ws/build/offboard_takeoff_example' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/catscanners/Documents/find-my-kitten/ros2_ws/install/py_pubsub:/opt/ros/humble /usr/bin/cmake --build /home/catscanners/Documents/find-my-kitten/ros2_ws/build/offboard_takeoff_example -- -j6 -l6

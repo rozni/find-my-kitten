@@ -1,0 +1,18 @@
+[31mCMake Error at CMakeLists.txt:10 (find_package):
+  By not providing "Findmavros_msgs.cmake" in CMAKE_MODULE_PATH this project
+  has asked CMake to find a package configuration file provided by
+  "mavros_msgs", but CMake did not find one.
+
+  Could not find a package configuration file provided by "mavros_msgs" with
+  any of the following names:
+
+    mavros_msgsConfig.cmake
+    mavros_msgs-config.cmake
+
+  Add the installation prefix of "mavros_msgs" to CMAKE_PREFIX_PATH or set
+  "mavros_msgs_DIR" to a directory containing one of the above files.  If
+  "mavros_msgs" provides a separate development package or SDK, be sure it
+  has been installed.
+
+[0m
+gmake: *** [Makefile:226: cmake_check_build_system] Error 1

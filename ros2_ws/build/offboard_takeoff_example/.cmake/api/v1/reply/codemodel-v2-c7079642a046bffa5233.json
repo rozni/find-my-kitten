@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-6d82720d71c91e1d952d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "offboard_takeoff_example",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "offboard_takeoff_example_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-offboard_takeoff_example_uninstall-4e1b471a591338d85f9e.json",
+					"name" : "offboard_takeoff_example_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "offboarder::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-offboarder-0c71d5affe3d08bc92e6.json",
+					"name" : "offboarder",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-0ee729d32d0938a41311.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/catscanners/Documents/find-my-kitten/ros2_ws/build/offboard_takeoff_example",
+		"source" : "/home/catscanners/Documents/find-my-kitten/ros2_ws/src/offboard_takeoff_example"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

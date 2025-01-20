@@ -1,0 +1,15 @@
+/home/catscanners/Documents/find-my-kitten/ros2_ws/install/offboard_takeoff_example/share/ament_index/resource_index/package_run_dependencies/offboard_takeoff_example
+/home/catscanners/Documents/find-my-kitten/ros2_ws/install/offboard_takeoff_example/share/ament_index/resource_index/parent_prefix_path/offboard_takeoff_example
+/home/catscanners/Documents/find-my-kitten/ros2_ws/install/offboard_takeoff_example/share/offboard_takeoff_example/environment/ament_prefix_path.sh
+/home/catscanners/Documents/find-my-kitten/ros2_ws/install/offboard_takeoff_example/share/offboard_takeoff_example/environment/ament_prefix_path.dsv
+/home/catscanners/Documents/find-my-kitten/ros2_ws/install/offboard_takeoff_example/share/offboard_takeoff_example/environment/path.sh
+/home/catscanners/Documents/find-my-kitten/ros2_ws/install/offboard_takeoff_example/share/offboard_takeoff_example/environment/path.dsv
+/home/catscanners/Documents/find-my-kitten/ros2_ws/install/offboard_takeoff_example/share/offboard_takeoff_example/local_setup.bash
+/home/catscanners/Documents/find-my-kitten/ros2_ws/install/offboard_takeoff_example/share/offboard_takeoff_example/local_setup.sh
+/home/catscanners/Documents/find-my-kitten/ros2_ws/install/offboard_takeoff_example/share/offboard_takeoff_example/local_setup.zsh
+/home/catscanners/Documents/find-my-kitten/ros2_ws/install/offboard_takeoff_example/share/offboard_takeoff_example/local_setup.dsv
+/home/catscanners/Documents/find-my-kitten/ros2_ws/install/offboard_takeoff_example/share/offboard_takeoff_example/package.dsv
+/home/catscanners/Documents/find-my-kitten/ros2_ws/install/offboard_takeoff_example/share/ament_index/resource_index/packages/offboard_takeoff_example
+/home/catscanners/Documents/find-my-kitten/ros2_ws/install/offboard_takeoff_example/share/offboard_takeoff_example/cmake/offboard_takeoff_exampleConfig.cmake
+/home/catscanners/Documents/find-my-kitten/ros2_ws/install/offboard_takeoff_example/share/offboard_takeoff_example/cmake/offboard_takeoff_exampleConfig-version.cmake
+/home/catscanners/Documents/find-my-kitten/ros2_ws/install/offboard_takeoff_example/share/offboard_takeoff_example/package.xml

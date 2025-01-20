@@ -1,0 +1,28 @@
+[0.023s] Invoking command in '/home/catscanners/Documents/find-my-kitten/ros2_ws/build/offboard_takeoff_example': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/catscanners/Documents/find-my-kitten/ros2_ws/install/py_pubsub:/opt/ros/humble /usr/bin/cmake --build /home/catscanners/Documents/find-my-kitten/ros2_ws/build/offboard_takeoff_example -- -j6 -l6
+[0.067s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.365s] -- Found mavros_msgs: 2.9.0 (/opt/ros/humble/share/mavros_msgs/cmake)
+[0.434s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.444s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.460s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.484s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.516s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.770s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.926s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.926s] -- Configured cppcheck include dirs: 
+[0.926s] -- Configured cppcheck exclude dirs and/or files: 
+[0.927s] -- Added test 'lint_cmake' to check CMake code style
+[0.928s] -- Added test 'uncrustify' to check C / C++ code style
+[0.928s] -- Configured uncrustify additional arguments: 
+[0.929s] -- Added test 'xmllint' to check XML markup files
+[0.931s] -- Configuring done
+[0.951s] -- Generating done
+[0.959s] -- Build files have been written to: /home/catscanners/Documents/find-my-kitten/ros2_ws/build/offboard_takeoff_example
+[1.038s] [ 50%] [32mBuilding CXX object CMakeFiles/offboarder.dir/src/offb_node.cpp.o[0m
+[1.064s] [01m[K/home/catscanners/Documents/find-my-kitten/ros2_ws/src/offboard_takeoff_example/src/offb_node.cpp:7:10:[m[K [01;31m[Kfatal error: [m[Kros/ros.h: No such file or directory
+[1.064s]     7 | #include [01;31m[K<ros/ros.h>[m[K
+[1.064s]       |          [01;31m[K^~~~~~~~~~~[m[K
+[1.065s] compilation terminated.
+[1.068s] gmake[2]: *** [CMakeFiles/offboarder.dir/build.make:76: CMakeFiles/offboarder.dir/src/offb_node.cpp.o] Error 1
+[1.069s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/offboarder.dir/all] Error 2
+[1.070s] gmake: *** [Makefile:146: all] Error 2
+[1.078s] Invoked command in '/home/catscanners/Documents/find-my-kitten/ros2_ws/build/offboard_takeoff_example' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/catscanners/Documents/find-my-kitten/ros2_ws/install/py_pubsub:/opt/ros/humble /usr/bin/cmake --build /home/catscanners/Documents/find-my-kitten/ros2_ws/build/offboard_takeoff_example -- -j6 -l6

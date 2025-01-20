@@ -1,0 +1,18 @@
+{
+    "ros.distro": "humble",
+    "cmake.ignoreCMakeListsMissing": true,
+    "python.autoComplete.extraPaths": [
+        "/home/catscanners/Documents/find-my-kitten/ros2_ws/install/py_pubsub/lib/python3.10/site-packages",
+        "/home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_ros_com/local/lib/python3.10/dist-packages",
+        "/home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_msgs/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/catscanners/Documents/find-my-kitten/ros2_ws/install/py_pubsub/lib/python3.10/site-packages",
+        "/home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_ros_com/local/lib/python3.10/dist-packages",
+        "/home/catscanners/Documents/find-my-kitten/ros2_ws/install/px4_msgs/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}
